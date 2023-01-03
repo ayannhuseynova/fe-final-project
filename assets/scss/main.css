@@ -163,6 +163,7 @@ main #products #valentine .container .row .surprise ul li i {
 }
 main #products #experts {
   margin-top: 10vw;
+  margin-bottom: 8vw;
 }
 main #products #experts .container .row .information-about-experts h3 {
   color: #2b2b2b;
@@ -199,9 +200,6 @@ main #products #experts .container .row .col-sm-12 .expert-information .main-inf
   color: #afafaf;
   text-transform: capitalize;
 }
-main #products #parallax-effect {
-  margin-top: 8vw;
-}
 main #products #parallax-effect .parallax-image {
   background-image: url("https://fiorello.qodeinteractive.com/wp-content/uploads/2018/05/h3-background-img.jpg");
   min-height: 600px;
@@ -210,7 +208,122 @@ main #products #parallax-effect .parallax-image {
   background-repeat: no-repeat;
   background-size: cover;
 }
-main #products #parallax-effect .parallax-image .email h4 {
+main #products #parallax-effect .parallax-image .email .container .row .newsletter {
+  margin-top: 12vw;
+}
+main #products #parallax-effect .parallax-image .email .container .row .newsletter h4 {
   text-align: center;
   color: white;
+  font-family: "Playfair Display", serif;
+  font-size: 30px;
+  font-weight: 400;
+  text-transform: capitalize;
+}
+main #products #parallax-effect .parallax-image .email .container .row .newsletter .input-container input {
+  padding: 1.2vw 20vw 1.2vw 0.7vw;
+  text-align: start;
+  color: #cecbcb;
+  font-size: 12px;
+  font-family: "Montserrat", sans-serif;
+  border: 1px solid #afafaf;
+}
+main #products #parallax-effect .parallax-image .email .container .row .newsletter .input-container button {
+  border: 1px solid #f34f3f;
+  background-color: #f34f3f;
+  color: white;
+  text-transform: uppercase;
+  font-family: "Montserrat", sans-serif;
+  font-size: 12px;
+  padding: 0 2vw;
+}
+main #products #parallax-effect .parallax-image .email .container .row .newsletter .input-container::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+main #products #blog {
+  padding-top: 7vw;
+  padding-bottom: 7vw;
+  background-color: #f8f8f8;
+}
+main #products #blog .container .row .blog-text h3 {
+  font-family: "Playfair Display", serif;
+  font-size: 38px;
+  color: #2b2b2b;
+  font-weight: 400;
+  text-align: center;
+}
+main #products #blog .container .row .blog-text p {
+  font-family: "Lora", serif;
+  font-size: 17px;
+  color: #6d6a6a;
+  text-align: center;
+}
+main #products #blog .container .row .blog-images .blog-container .image-container img {
+  width: 100%;
+}
+main #products #blog .container .row .blog-images .blog-container a {
+  text-decoration: none;
+}
+main #products #blog .container .row .blog-images .blog-container a h5 {
+  font-family: "Playfair Display", serif;
+  color: #2b2b2b;
+  font-size: 22px;
+  font-weight: 400;
+  text-transform: capitalize;
+  text-align: center;
+}
+main #products #blog .container .row .blog-images .blog-container p {
+  font-family: "Lora", serif;
+  color: #6d6a6a;
+  font-weight: 400;
+  font-size: 15px;
+  text-align: center;
+}
+main #products #second-slide {
+  margin-top: 7vw;
+  margin-bottom: 7vw;
+}
+main #products #second-slide .owl-carousel .both {
+  font-size: 26px;
+  font-weight: 300;
+  position: relative;
+  bottom: 10vw;
+  color: #afafaf;
+  background-color: transparent;
+}
+main #products #second-slide .owl-carousel .both:hover {
+  background-color: transparent;
+}
+main #products #second-slide .owl-carousel .left {
+  right: 20vw;
+}
+main #products #second-slide .owl-carousel .right {
+  left: 20vw;
+}
+main #products #second-slide .owl-carousel .item .slide .image-container img {
+  width: 5%;
+}
+main #products #second-slide .owl-carousel .item .slide h5 {
+  font-family: "Lora", serif;
+  font-size: 24px;
+  color: #4b4747;
+  text-align: center;
+  font-style: italic;
+  font-weight: 300;
+}
+main #products #second-slide .owl-carousel .item .slide p {
+  text-align: center;
+}
+main #products #second-slide .owl-carousel .item .slide .name {
+  font-family: "Montserrat", sans-serif;
+  font-size: 12px;
+  color: #1b1b1b;
+  text-transform: uppercase;
+  font-weight: 500;
+}
+main #products #second-slide .owl-carousel .item .slide .job {
+  color: #afafaf;
+  font-size: 12px;
+  font-weight: 500;
 }/*# sourceMappingURL=main.css.map */

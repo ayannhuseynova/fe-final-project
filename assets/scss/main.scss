@@ -199,6 +199,7 @@ main {
     }
     #experts {
       margin-top: 10vw;
+      margin-bottom: 8vw;
       .container {
         .row {
           .information-about-experts {
@@ -248,7 +249,6 @@ main {
       }
     }
     #parallax-effect {
-      margin-top: 8vw;
       .parallax-image {
         background-image: url("https://fiorello.qodeinteractive.com/wp-content/uploads/2018/05/h3-background-img.jpg");
         min-height: 600px;
@@ -256,10 +256,151 @@ main {
         background-position: top;
         background-repeat: no-repeat;
         background-size: cover;
-        .email{
-          h4{
-            text-align: center;
-            color: white;
+        .email {
+          .container {
+            .row {
+              .newsletter {
+                margin-top: 12vw;
+                h4 {
+                  text-align: center;
+                  color: white;
+                  font-family: "Playfair Display", serif;
+                  font-size: 30px;
+                  font-weight: 400;
+                  text-transform: capitalize;
+                }
+                .input-container {
+                  input {
+                    padding: 1.2vw 20vw 1.2vw 0.7vw;
+                    text-align: start;
+                    color: #cecbcb;
+                    font-size: 12px;
+                    font-family: "Montserrat", sans-serif;
+                    border: 1px solid #afafaf;
+                  }
+                  button {
+                    border: 1px solid #f34f3f;
+                    background-color: #f34f3f;
+                    color: white;
+                    text-transform: uppercase;
+                    font-family: "Montserrat", sans-serif;
+                    font-size: 12px;
+                    padding: 0 2vw;
+                  }
+                }
+                .input-container::after {
+                  content: "";
+                  clear: both;
+                  display: table;
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+    #blog {
+      padding-top: 7vw;
+      padding-bottom: 7vw;
+      background-color: #f8f8f8;
+      .container {
+        .row {
+          .blog-text {
+            h3 {
+              font-family: "Playfair Display", serif;
+              font-size: 38px;
+              color: #2b2b2b;
+              font-weight: 400;
+              text-align: center;
+            }
+            p {
+              font-family: "Lora", serif;
+              font-size: 17px;
+              color: #6d6a6a;
+              text-align: center;
+            }
+          }
+          .blog-images {
+            .blog-container {
+              .image-container {
+                img {
+                  width: 100%;
+                }
+              }
+              a {
+                text-decoration: none;
+                h5 {
+                  font-family: "Playfair Display", serif;
+                  color: #2b2b2b;
+                  font-size: 22px;
+                  font-weight: 400;
+                  text-transform: capitalize;
+                  text-align: center;
+                }
+              }
+              p {
+                font-family: "Lora", serif;
+                color: #6d6a6a;
+                font-weight: 400;
+                font-size: 15px;
+                text-align: center;
+              }
+            }
+          }
+        }
+      }
+    }
+    #second-slide {
+      margin-top: 7vw;
+      margin-bottom: 7vw;
+      .owl-carousel {
+        .both {
+          font-size: 26px;
+          font-weight: 300;
+          position: relative;
+          bottom: 10vw;
+          color: #afafaf;
+          background-color: transparent;
+        }
+        .both:hover {
+          background-color: transparent;
+        }
+        .left {
+          right: 20vw;
+        }
+        .right {
+          left: 20vw;
+        }
+        .item {
+          .slide {
+            .image-container {
+              img {
+                width: 5%;
+              }
+            }
+            h5 {
+              font-family: "Lora", serif;
+              font-size: 24px;
+              color: #4b4747;
+              text-align: center;
+              font-style: italic;
+              font-weight: 300;
+            }
+            p {
+              text-align: center;
+            }
+            .name {
+              font-family: "Montserrat", sans-serif;
+              font-size: 12px;
+              color: #1b1b1b;
+              text-transform: uppercase;
+              font-weight: 500;
+            }
+            .job {
+              color: #afafaf;
+              font-size: 12px;
+              font-weight: 500;
+            }
           }
         }
       }
