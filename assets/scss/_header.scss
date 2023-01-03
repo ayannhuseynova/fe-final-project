@@ -1,4 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&display=swap");
 * {
   box-sizing: border-box;
 }
@@ -14,7 +16,7 @@ header {
         .navbar-nav {
           .start {
             a {
-              padding-left: 3vw;
+              padding-left: 2vw;
             }
             a:last-child {
               padding-right: 3vw;
@@ -56,6 +58,50 @@ header {
             background-color: black;
           }
         }
+      }
+    }
+  }
+  #slider {
+    .owl-carousel {
+      .item {
+        .owl-text-overlay {
+          position: absolute;
+          padding-top: 8vw;
+          padding-left: 11vw;
+          h2 {
+            font-family: "Playfair Display", serif;
+            font-size: 60px;
+            font-weight: 400;
+            span {
+              color: red;
+            }
+          }
+          p {
+            font-family: "Lora", serif;
+            font-weight: 400;
+            font-size: 17px;
+          }
+          img {
+            width: 40%;
+          }
+        }
+      }
+      .both {
+        font-size: 26px;
+        font-weight: 300;
+        position: relative;
+        bottom: 22vw;
+        color: #afafaf;
+        background-color: transparent;
+      }
+      .both:hover {
+        background-color: transparent;
+      }
+      .left {
+        right: 46vw;
+      }
+      .right {
+        left: 46vw;
       }
     }
   }

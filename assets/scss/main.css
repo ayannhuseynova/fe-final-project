@@ -1,0 +1,216 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+* {
+  box-sizing: border-box;
+}
+
+main #products #navigation-bar .container .row .left ul {
+  padding: 0;
+}
+main #products #navigation-bar .container .row .left ul li {
+  list-style-type: none;
+}
+main #products #navigation-bar .container .row .left ul li a {
+  color: #1b1b1b;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-family: "Montserrat", sans-serif;
+  font-size: 12px;
+  letter-spacing: 0.1em;
+  font-weight: 500;
+}
+main #products #navigation-bar .container .row .left ul li a:hover {
+  color: #f34f3f;
+  transition: 0.3s;
+}
+main #products #navigation-bar .container .row .left ul li .red {
+  color: #f34f3f;
+}
+main #products #navigation-bar .container .row .right .dropbtn {
+  font-family: "Montserrat", sans-serif;
+  font-size: 12px;
+  letter-spacing: 0.1em;
+  font-weight: 500;
+  text-transform: uppercase;
+  color: #1b1b1b;
+  background-color: transparent;
+  border: none;
+}
+main #products #navigation-bar .container .row .right .dropdown {
+  position: relative;
+  display: inline-block;
+}
+main #products #navigation-bar .container .row .right .dropdown:hover .dropdown-content {
+  display: block;
+}
+main #products #navigation-bar .container .row .right .dropdown-content {
+  display: none;
+  position: absolute;
+  min-width: 400px;
+  background-color: white;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 999;
+}
+main #products #navigation-bar .container .row .right .dropdown-content .dropdown-container .first h4,
+main #products #navigation-bar .container .row .right .dropdown-content .dropdown-container .second h4 {
+  font-family: "Playfair Display", serif;
+  color: #464646;
+  font-weight: 400;
+  font-size: 22px;
+  text-transform: capitalize;
+  margin-left: 2vw;
+}
+main #products #navigation-bar .container .row .right .dropdown-content .dropdown-container .first ul li,
+main #products #navigation-bar .container .row .right .dropdown-content .dropdown-container .second ul li {
+  list-style-type: none;
+}
+main #products #navigation-bar .container .row .right .dropdown-content .dropdown-container .first ul li a,
+main #products #navigation-bar .container .row .right .dropdown-content .dropdown-container .second ul li a {
+  text-decoration: none;
+  color: #878787;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
+  font-size: 13px;
+  text-transform: capitalize;
+  margin-bottom: 0.2vw;
+}
+main #products #navigation-bar .container .row .right .dropdown-content .dropdown-container .first ul li a:hover,
+main #products #navigation-bar .container .row .right .dropdown-content .dropdown-container .second ul li a:hover {
+  color: #1b1b1b;
+  transition: 0.4s;
+}
+main #products #navigation-bar .container .row .right .dropdown-content a {
+  text-decoration: none;
+  display: block;
+}
+main #products #product-images {
+  display: block;
+}
+main #products #product-images .container .row .column img {
+  width: 100%;
+}
+main #products #product-images .container .row .column img:hover {
+  width: 102%;
+  transition: 0.4s;
+}
+main #products #product-images .container .row .column a {
+  text-decoration: none;
+}
+main #products #product-images .container .row .column h4 {
+  font-family: "Montserrat", sans-serif;
+  font-size: 12px;
+  letter-spacing: 0.1em;
+  font-weight: 500;
+  color: #1b1b1b;
+  text-transform: uppercase;
+}
+main #products #product-images .container .row .column p {
+  font-family: "Montserrat", sans-serif;
+  font-size: 12px;
+  letter-spacing: 0.1em;
+  font-weight: 600;
+  color: #afafaf;
+  text-transform: uppercase;
+}
+main #products #valentine {
+  padding: 0;
+  background-color: #f7f7f7;
+}
+main #products #valentine .container .row div .pop-up-yt-video {
+  width: 650px;
+  height: 428px;
+  background-image: url(https://fiorello.qodeinteractive.com/wp-content/uploads/2018/04/h3-video-img.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+main #products #valentine .container .row div .pop-up-yt-video a i {
+  position: relative;
+  top: 11vw;
+  left: 16vw;
+  color: orange;
+  background-color: white;
+  border: 1px solid white;
+  border-radius: 50%;
+  padding: 25px;
+  font-size: 50px;
+}
+main #products #valentine .container .row .surprise h3 {
+  color: #2b2b2b;
+  font-family: "Playfair Display", serif;
+  font-size: 38px;
+  font-weight: 400;
+}
+main #products #valentine .container .row .surprise h3 span {
+  color: #f34f3f;
+}
+main #products #valentine .container .row .surprise p {
+  color: #6d6a6a;
+  font-family: "Lora", serif;
+  font-weight: 400;
+  font-size: 17px;
+}
+main #products #valentine .container .row .surprise ul li {
+  list-style-type: none;
+  color: #6d6a6a;
+  font-family: "Lora", serif;
+  font-weight: 400;
+  font-size: 17px;
+}
+main #products #valentine .container .row .surprise ul li i {
+  color: #f34f3f;
+  font-size: 18px;
+}
+main #products #experts {
+  margin-top: 10vw;
+}
+main #products #experts .container .row .information-about-experts h3 {
+  color: #2b2b2b;
+  font-family: "Playfair Display", serif;
+  font-size: 38px;
+  font-weight: 400;
+  text-align: center;
+  text-transform: capitalize;
+}
+main #products #experts .container .row .information-about-experts p {
+  margin-top: 1.5vw;
+  color: #6d6a6a;
+  font-family: "Lora", serif;
+  font-weight: 400;
+  font-size: 17px;
+  text-align: center;
+}
+main #products #experts .container .row .col-sm-12 .expert-information .main-info {
+  text-align: center;
+}
+main #products #experts .container .row .col-sm-12 .expert-information .main-info h5 {
+  font-family: "Montserrat", sans-serif;
+  font-size: 12px;
+  letter-spacing: 0.1em;
+  font-weight: 500;
+  color: #1b1b1b;
+  text-transform: uppercase;
+}
+main #products #experts .container .row .col-sm-12 .expert-information .main-info p {
+  font-family: "Montserrat", sans-serif;
+  font-size: 12px;
+  letter-spacing: 0.1em;
+  font-weight: 500;
+  color: #afafaf;
+  text-transform: capitalize;
+}
+main #products #parallax-effect {
+  margin-top: 8vw;
+}
+main #products #parallax-effect .parallax-image {
+  background-image: url("https://fiorello.qodeinteractive.com/wp-content/uploads/2018/05/h3-background-img.jpg");
+  min-height: 600px;
+  background-attachment: fixed;
+  background-position: top;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+main #products #parallax-effect .parallax-image .email h4 {
+  text-align: center;
+  color: white;
+}/*# sourceMappingURL=main.css.map */
