@@ -126,11 +126,11 @@ main {
       .row {
         .column {
           img {
+            transition: 0.4s;
             width: 100%;
           }
           img:hover {
-            width: 102%;
-            transition: 0.4s;
+            transform: scale(1.05);
           }
           a {
             text-decoration: none;

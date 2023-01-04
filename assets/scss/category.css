@@ -190,11 +190,11 @@ main #product-images {
   display: block;
 }
 main #product-images .container .row .column img {
+  transition: 0.4s;
   width: 100%;
 }
 main #product-images .container .row .column img:hover {
-  width: 102%;
-  transition: 0.4s;
+  transform: scale(1.05);
 }
 main #product-images .container .row .column a {
   text-decoration: none;
