@@ -1,0 +1,312 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&display=swap");
+* {
+  box-sizing: border-box;
+}
+
+header nav .container .navbar-brand img {
+  width: 50%;
+}
+header nav .container .right-side .navbar-nav .start a {
+  padding-left: 2vw;
+}
+header nav .container .right-side .navbar-nav .start a:last-child {
+  padding-right: 3vw;
+}
+header nav .container .right-side .navbar-nav a {
+  font-family: "Montserrat", sans-serif;
+  color: black;
+  text-transform: uppercase;
+  font-size: 12px;
+  font-weight: 500;
+  letter-spacing: 0.1em;
+}
+header nav .container .right-side .navbar-nav a i {
+  font-size: 19px;
+}
+header nav .container .right-side .navbar-nav a .bi-search:hover {
+  color: red;
+  transition: 0.6s;
+}
+header nav .container .right-side .navbar-nav .start a::after {
+  content: "";
+  display: block;
+  width: 0;
+  height: 1px;
+  background-color: black;
+  transition: width 0.6s;
+}
+header nav .container .right-side .navbar-nav .start a:hover::after {
+  width: 100%;
+}
+header nav .container .right-side .navbar-nav #active-home:after {
+  content: "";
+  display: block;
+  width: 100%;
+  height: 1px;
+  background-color: black;
+}
+header #slider .owl-carousel .item .owl-text-overlay {
+  position: absolute;
+  padding-top: 8vw;
+  padding-left: 11vw;
+}
+header #slider .owl-carousel .item .owl-text-overlay h2 {
+  font-family: "Playfair Display", serif;
+  font-size: 60px;
+  font-weight: 400;
+}
+header #slider .owl-carousel .item .owl-text-overlay h2 span {
+  color: red;
+}
+header #slider .owl-carousel .item .owl-text-overlay p {
+  font-family: "Lora", serif;
+  font-weight: 400;
+  font-size: 17px;
+}
+header #slider .owl-carousel .item .owl-text-overlay img {
+  width: 40%;
+}
+header #slider .owl-carousel .both {
+  font-size: 26px;
+  font-weight: 300;
+  position: relative;
+  bottom: 22vw;
+  color: #afafaf;
+  background-color: transparent;
+}
+header #slider .owl-carousel .both:hover {
+  background-color: transparent;
+}
+header #slider .owl-carousel .left {
+  right: 46vw;
+}
+header #slider .owl-carousel .right {
+  left: 46vw;
+}
+
+body {
+  @import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+  @import url("https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+  @import url("https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&display=swap");
+}
+body header #parallax-effect .parallax-image {
+  background-image: url("https://fiorello.qodeinteractive.com/wp-content/uploads/2018/05/p1-title-img.jpg");
+  min-height: 300px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+body header #parallax-effect .parallax-image .email .container .row .newsletter .about-container {
+  margin-top: 6vw;
+}
+body header #parallax-effect .parallax-image .email .container .row .newsletter .about-container h4 {
+  text-align: center;
+  color: #0e0e0e;
+  font-family: "Playfair Display", serif;
+  font-size: 50px;
+  font-weight: 400;
+  text-transform: capitalize;
+  vertical-align: middle;
+}
+body header #parallax-effect .parallax-image .email .container .row .newsletter .about-container p {
+  font-size: 17px;
+  font-family: "Lora", serif;
+  color: #6d6a6a;
+  font-style: italic;
+  vertical-align: middle;
+}
+body header #valentine {
+  padding: 8vw 0;
+}
+body header #valentine .container .row div .pop-up-yt-video {
+  width: 650px;
+  height: 428px;
+  background-image: url(https://fiorello.qodeinteractive.com/wp-content/uploads/2018/04/h3-video-img.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+body header #valentine .container .row div .pop-up-yt-video a i {
+  position: relative;
+  top: 11vw;
+  left: 16vw;
+  color: orange;
+  background-color: white;
+  border: 1px solid white;
+  border-radius: 50%;
+  padding: 25px;
+  font-size: 50px;
+}
+body header #valentine .container .row .surprise h3 {
+  color: #2b2b2b;
+  font-family: "Playfair Display", serif;
+  font-size: 38px;
+  font-weight: 400;
+}
+body header #valentine .container .row .surprise h3 span {
+  color: #f34f3f;
+}
+body header #valentine .container .row .surprise p {
+  margin-top: 1vw;
+  color: #6d6a6a;
+  font-family: "Lora", serif;
+  font-weight: 400;
+  font-size: 17px;
+  word-spacing: 0.2em;
+}
+body header #valentine .container .row .surprise img {
+  margin-top: 1vw;
+  width: 40%;
+}
+body header #experts {
+  background-color: #f8f8f8;
+  padding-top: 10vw;
+  padding-bottom: 8vw;
+}
+body header #experts .container .row .information-about-experts h3 {
+  color: #2b2b2b;
+  font-family: "Playfair Display", serif;
+  font-size: 38px;
+  font-weight: 400;
+  text-align: center;
+  text-transform: capitalize;
+}
+body header #experts .container .row .information-about-experts p {
+  margin-top: 1.5vw;
+  color: #6d6a6a;
+  font-family: "Lora", serif;
+  font-weight: 400;
+  font-size: 17px;
+  text-align: center;
+}
+body header #experts .container .row .col-sm-12 .expert-information .main-info {
+  text-align: center;
+}
+body header #experts .container .row .col-sm-12 .expert-information .main-info h5 {
+  font-family: "Montserrat", sans-serif;
+  font-size: 12px;
+  letter-spacing: 0.1em;
+  font-weight: 500;
+  color: #1b1b1b;
+  text-transform: uppercase;
+}
+body header #experts .container .row .col-sm-12 .expert-information .main-info p {
+  font-family: "Montserrat", sans-serif;
+  font-size: 12px;
+  letter-spacing: 0.1em;
+  font-weight: 500;
+  color: #afafaf;
+  text-transform: capitalize;
+}
+body header #second-slide {
+  margin-top: 7vw;
+  margin-bottom: 7vw;
+}
+body header #second-slide .owl-carousel .both {
+  font-size: 26px;
+  font-weight: 300;
+  position: relative;
+  bottom: 10vw;
+  color: #afafaf;
+  background-color: transparent;
+}
+body header #second-slide .owl-carousel .both:hover {
+  background-color: transparent;
+}
+body header #second-slide .owl-carousel .left {
+  right: 20vw;
+}
+body header #second-slide .owl-carousel .right {
+  left: 20vw;
+}
+body header #second-slide .owl-carousel .item .slide .image-container img {
+  width: 5%;
+}
+body header #second-slide .owl-carousel .item .slide h5 {
+  font-family: "Lora", serif;
+  font-size: 24px;
+  color: #4b4747;
+  text-align: center;
+  font-style: italic;
+  font-weight: 300;
+}
+body header #second-slide .owl-carousel .item .slide p {
+  text-align: center;
+}
+body header #second-slide .owl-carousel .item .slide .name {
+  font-family: "Montserrat", sans-serif;
+  font-size: 12px;
+  color: #1b1b1b;
+  text-transform: uppercase;
+  font-weight: 500;
+}
+body header #second-slide .owl-carousel .item .slide .job {
+  color: #afafaf;
+  font-size: 12px;
+  font-weight: 500;
+}
+body * {
+  box-sizing: border-box;
+}
+body footer {
+  background-color: #fefaf3;
+}
+body footer .container {
+  padding-top: 5vw;
+  padding-bottom: 1vw;
+}
+body footer .container .row .end {
+  margin-bottom: 2vw;
+}
+body footer .container .row .end .footer-container p {
+  color: black;
+  font-family: "Montserrat", sans-serif;
+  font-size: 12px;
+  font-weight: 500;
+  text-transform: uppercase;
+}
+body footer .container .row .end .footer-container ul {
+  margin: 0;
+  padding: 0;
+}
+body footer .container .row .end .footer-container ul li {
+  list-style-type: none;
+}
+body footer .container .row .end .footer-container ul li a {
+  text-decoration: none;
+  color: #8b8b8b;
+  font-family: "Montserrat", sans-serif;
+  font-size: 12px;
+}
+body footer .container .row .end .footer-container ul li a:hover {
+  color: #f34f3f;
+  transition: 0.4s;
+}
+body footer .container .second {
+  border-top: 1px solid #d9d5cf;
+}
+body footer .container .second .footer-info-container p {
+  color: #afafaf;
+  font-family: "Montserrat", sans-serif;
+  font-size: 12px;
+  font-weight: 500;
+}
+body footer .container .second .footer-info-container p span {
+  color: #6d6a6a;
+}
+body footer .container .second .social-media .socials a {
+  color: #afafaf;
+  font-family: "Montserrat", sans-serif;
+  font-size: 10px;
+  font-weight: 500;
+  text-decoration: none;
+  text-transform: uppercase;
+  letter-spacing: 0.2em;
+}
+body footer .container .second .social-media .socials a:hover {
+  color: #f34f3f;
+  transition: 0.4s;
+}/*# sourceMappingURL=aboutus.css.map */
