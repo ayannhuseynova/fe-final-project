@@ -124,23 +124,30 @@ body main #valentine {
   padding: 8vw 0;
 }
 body main #valentine .container .row div .pop-up-yt-video {
-  width: 650px;
   height: 428px;
   background-image: url(https://fiorello.qodeinteractive.com/wp-content/uploads/2018/04/h3-video-img.jpg);
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
+  position: relative;
+}
+body main #valentine .container .row div .pop-up-yt-video a {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
 body main #valentine .container .row div .pop-up-yt-video a i {
-  position: relative;
-  top: 11vw;
-  left: 16vw;
   color: orange;
   background-color: white;
   border: 1px solid white;
   border-radius: 50%;
-  padding: 25px;
+  display: inline-block;
+  width: 75px;
+  height: 75px;
   font-size: 50px;
+  text-align: center;
+  line-height: 75px;
 }
 body main #valentine .container .row .surprise h3 {
   color: #2b2b2b;
@@ -213,10 +220,10 @@ body main #second-slide .owl-carousel .both {
   position: relative;
   bottom: 10vw;
   color: #afafaf;
-  background-color: transparent;
 }
-body main #second-slide .owl-carousel .both:hover {
-  background-color: transparent;
+body main #second-slide .owl-carousel .owl-prev,
+body main #second-slide .owl-carousel .owl-next {
+  background: none !important;
 }
 body main #second-slide .owl-carousel .left {
   right: 20vw;
