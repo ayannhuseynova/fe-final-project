@@ -1,9 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&display=swap");
 * {
   box-sizing: border-box;
 }
@@ -89,166 +86,148 @@ header #slider .owl-carousel .right {
   left: 46vw;
 }
 
-* {
-  box-sizing: border-box;
+body header #category-filter {
+  background-color: #fafaf9;
+  padding: 3vw 0;
 }
-
-body header #parallax-effect .parallax-image {
-  background-image: url("https://fiorello.qodeinteractive.com/wp-content/uploads/2018/05/p1-title-img.jpg");
-  min-height: 300px;
-  background-attachment: fixed;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-}
-body header #parallax-effect .parallax-image .email .container .row .newsletter .about-container {
-  margin-top: 6vw;
-}
-body header #parallax-effect .parallax-image .email .container .row .newsletter .about-container h4 {
-  text-align: center;
+body header #category-filter .container .row .col h1 {
+  text-transform: capitalize;
   color: #0e0e0e;
   font-family: "Playfair Display", serif;
   font-size: 50px;
   font-weight: 400;
-  text-transform: capitalize;
-  vertical-align: middle;
 }
-body header #parallax-effect .parallax-image .email .container .row .newsletter .about-container p {
+body header #category-filter .container .row .col p {
   font-size: 17px;
   font-family: "Lora", serif;
   color: #6d6a6a;
   font-style: italic;
-  vertical-align: middle;
 }
-body main #valentine {
-  padding: 8vw 0;
+body main #first-post {
+  margin-top: 5vw;
 }
-body main #valentine .container .row div .pop-up-yt-video {
-  width: 650px;
-  height: 428px;
-  background-image: url(https://fiorello.qodeinteractive.com/wp-content/uploads/2018/04/h3-video-img.jpg);
-  background-position: center;
-  background-size: cover;
-  background-repeat: no-repeat;
+body main #first-post .container .row .col-9 .blogpost .image-container a img {
+  width: 100%;
 }
-body main #valentine .container .row div .pop-up-yt-video a i {
-  position: relative;
-  top: 11vw;
-  left: 16vw;
-  color: orange;
-  background-color: white;
-  border: 1px solid white;
-  border-radius: 50%;
-  padding: 25px;
-  font-size: 50px;
+body main #first-post .container .row .col-9 .blogpost .text-container {
+  margin-top: 2vw;
 }
-body main #valentine .container .row .surprise h3 {
+body main #first-post .container .row .col-9 .blogpost .text-container a {
   color: #2b2b2b;
   font-family: "Playfair Display", serif;
-  font-size: 38px;
+  font-size: 30px;
   font-weight: 400;
+  text-decoration: none;
 }
-body main #valentine .container .row .surprise h3 span {
-  color: #f34f3f;
-}
-body main #valentine .container .row .surprise p {
-  margin-top: 1vw;
-  color: #6d6a6a;
-  font-family: "Lora", serif;
-  font-weight: 400;
-  font-size: 17px;
-  word-spacing: 0.2em;
-}
-body main #valentine .container .row .surprise img {
-  margin-top: 1vw;
-  width: 40%;
-}
-body main #experts {
-  background-color: #f8f8f8;
-  padding-top: 10vw;
-  padding-bottom: 8vw;
-}
-body main #experts .container .row .information-about-experts h3 {
-  color: #2b2b2b;
-  font-family: "Playfair Display", serif;
-  font-size: 38px;
-  font-weight: 400;
-  text-align: center;
-  text-transform: capitalize;
-}
-body main #experts .container .row .information-about-experts p {
+body main #first-post .container .row .col-9 .blogpost .text-container p {
   margin-top: 1.5vw;
+  font-size: 15px;
+  font-family: "Lora", serif;
   color: #6d6a6a;
-  font-family: "Lora", serif;
-  font-weight: 400;
-  font-size: 17px;
-  text-align: center;
 }
-body main #experts .container .row .col-sm-12 .expert-information .main-info {
-  text-align: center;
+body main #first-post .container .row .col-9 .blogpost .additional-info {
+  margin-top: 2vw;
 }
-body main #experts .container .row .col-sm-12 .expert-information .main-info h5 {
+body main #first-post .container .row .col-9 .blogpost .additional-info ul {
+  padding: 0;
+}
+body main #first-post .container .row .col-9 .blogpost .additional-info ul li {
+  list-style-type: none;
+  font-size: 10px;
   font-family: "Montserrat", sans-serif;
-  font-size: 12px;
-  letter-spacing: 0.1em;
-  font-weight: 500;
-  color: #1b1b1b;
+  color: #afafaf;
   text-transform: uppercase;
-}
-body main #experts .container .row .col-sm-12 .expert-information .main-info p {
-  font-family: "Montserrat", sans-serif;
-  font-size: 12px;
-  letter-spacing: 0.1em;
   font-weight: 500;
+  letter-spacing: 0.15em;
+}
+body main #first-post .container .row .col-9 .blogpost .additional-info ul li a {
+  color: #595858;
+  text-decoration: none;
+}
+body main #first-post .container .row .col-9 .blogpost .additional-info ul .comment {
+  font-size: 10px;
+  font-family: "Montserrat", sans-serif;
   color: #afafaf;
-  text-transform: capitalize;
+  font-weight: 500;
+  letter-spacing: 0.15em;
 }
-body main #second-slide {
-  margin-top: 7vw;
-  margin-bottom: 7vw;
+body main #first-post .container .row .col-9 .blogpost .additional-info ul .comment i {
+  font-size: 20px;
 }
-body main #second-slide .owl-carousel .both {
-  font-size: 26px;
-  font-weight: 300;
-  position: relative;
-  bottom: 10vw;
-  color: #afafaf;
-  background-color: transparent;
+body main #first-post .container .row .col-9 .blogpost .additional-info ul li:not(:last-child) {
+  margin-right: 1vw;
 }
-body main #second-slide .owl-carousel .both:hover {
-  background-color: transparent;
+body main #first-post .container .row .col-9 .quote {
+  margin-bottom: 5vw;
 }
-body main #second-slide .owl-carousel .left {
-  right: 20vw;
+body main #first-post .container .row .col-9 .quote .quote-container {
+  background-color: #fdfbfc;
+  padding: 4vw 5vw;
 }
-body main #second-slide .owl-carousel .right {
-  left: 20vw;
-}
-body main #second-slide .owl-carousel .item .slide .image-container img {
-  width: 5%;
-}
-body main #second-slide .owl-carousel .item .slide h5 {
-  font-family: "Lora", serif;
+body main #first-post .container .row .col-9 .quote .quote-container h5 a {
+  text-decoration: none;
+  color: #2b2b2b;
   font-size: 24px;
-  color: #4b4747;
-  text-align: center;
-  font-style: italic;
-  font-weight: 300;
+  font-family: "Playfair Display", serif;
+  font-weight: 400;
 }
-body main #second-slide .owl-carousel .item .slide p {
-  text-align: center;
-}
-body main #second-slide .owl-carousel .item .slide .name {
-  font-family: "Montserrat", sans-serif;
-  font-size: 12px;
+body main #first-post .container .row .col-9 .quote .quote-container p {
   color: #1b1b1b;
+  font-size: 12px;
+  font-family: "Montserrat", sans-serif;
   text-transform: uppercase;
   font-weight: 500;
+  letter-spacing: 0.1em;
 }
-body main #second-slide .owl-carousel .item .slide .job {
-  color: #afafaf;
+body main #first-post .container .row .col-9 .navigation-icons .nav-container a {
+  font-family: "Montserrat", sans-serif;
   font-size: 12px;
   font-weight: 500;
+  text-decoration: none;
+}
+body main #first-post .container .row .col-9 .navigation-icons .nav-container .first {
+  color: #afafaf;
+}
+body main #first-post .container .row .col-9 .navigation-icons .nav-container .second {
+  color: #595858;
+}
+body main aside .container .row .col-3 .input-group input {
+  border: 1px solid #ede0cc;
+  font-size: 12px;
+  border-right: none;
+  padding: 1vw 5vw 1vw 1vw;
+}
+body main aside .container .row .col-3 .input-group button {
+  border: 1px solid #ede0cc;
+  border-left: none;
+  color: #6d6a6a;
+}
+body main aside .container .row .col-3 .input-group button:hover {
+  background-color: transparent;
+  color: #6d6a6a;
+}
+body main aside .container .row .col-3 .category-container p {
+  color: #1b1b1b;
+  font-size: 12px;
+  font-family: "Montserrat", sans-serif;
+  text-transform: uppercase;
+  font-weight: 500;
+  letter-spacing: 0.1em;
+}
+body main aside .container .row .col-3 .category-container ul {
+  padding: 0;
+}
+body main aside .container .row .col-3 .category-container ul li {
+  list-style-type: none;
+}
+body main aside .container .row .col-3 .category-container ul li a {
+  color: #8b8b8b;
+  font-size: 12px;
+  font-family: "Montserrat", sans-serif;
+  text-transform: capitalize;
+  text-decoration: none;
+  letter-spacing: 0.1em;
+  font-weight: 400;
 }
 body footer {
   background-color: #fefaf3;
@@ -308,4 +287,4 @@ body footer .container .second .social-media .socials a {
 body footer .container .second .social-media .socials a:hover {
   color: #f34f3f;
   transition: 0.4s;
-}/*# sourceMappingURL=aboutus.css.map */
+}/*# sourceMappingURL=sidebarblog.css.map */

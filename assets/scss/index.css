@@ -74,10 +74,10 @@ header #slider .owl-carousel .both {
   position: relative;
   bottom: 22vw;
   color: #afafaf;
-  background-color: transparent;
 }
-header #slider .owl-carousel .both:hover {
-  background-color: transparent;
+header #slider .owl-carousel .owl-prev,
+header #slider .owl-carousel .owl-next {
+  background: none !important;
 }
 header #slider .owl-carousel .left {
   right: 46vw;

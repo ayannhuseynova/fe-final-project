@@ -87,11 +87,11 @@ main #products #product-images {
   display: block;
 }
 main #products #product-images .container .row .column img {
+  transition: 0.4s;
   width: 100%;
 }
 main #products #product-images .container .row .column img:hover {
-  width: 102%;
-  transition: 0.4s;
+  transform: scale(1.05);
 }
 main #products #product-images .container .row .column a {
   text-decoration: none;
@@ -117,23 +117,30 @@ main #products #valentine {
   background-color: #f7f7f7;
 }
 main #products #valentine .container .row div .pop-up-yt-video {
-  width: 650px;
   height: 428px;
   background-image: url(https://fiorello.qodeinteractive.com/wp-content/uploads/2018/04/h3-video-img.jpg);
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
+  position: relative;
+}
+main #products #valentine .container .row div .pop-up-yt-video a {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
 main #products #valentine .container .row div .pop-up-yt-video a i {
-  position: relative;
-  top: 11vw;
-  left: 16vw;
   color: orange;
   background-color: white;
   border: 1px solid white;
   border-radius: 50%;
-  padding: 25px;
+  display: inline-block;
+  width: 75px;
+  height: 75px;
   font-size: 50px;
+  text-align: center;
+  line-height: 75px;
 }
 main #products #valentine .container .row .surprise h3 {
   color: #2b2b2b;
@@ -290,10 +297,10 @@ main #products #second-slide .owl-carousel .both {
   position: relative;
   bottom: 10vw;
   color: #afafaf;
-  background-color: transparent;
 }
-main #products #second-slide .owl-carousel .both:hover {
-  background-color: transparent;
+main #products #second-slide .owl-carousel .owl-prev,
+main #products #second-slide .owl-carousel .owl-next {
+  background: none !important;
 }
 main #products #second-slide .owl-carousel .left {
   right: 20vw;

@@ -92,10 +92,10 @@ header {
         position: relative;
         bottom: 22vw;
         color: #afafaf;
-        background-color: transparent;
       }
-      .both:hover {
-        background-color: transparent;
+      .owl-prev,
+      .owl-next {
+        background: none !important;
       }
       .left {
         right: 46vw;
