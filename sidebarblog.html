@@ -16,7 +16,7 @@
     <title>Blog Standard Right Sidebar - Fiorello</title>
   </head>
   <body>
-    <header>
+    <header class="header">
       <nav class="navbar navbar-expand-lg pt-4 pb-4">
         <div class="container">
           <a class="navbar-brand" href="#"
@@ -75,7 +75,7 @@
       <section id="first-post">
         <div class="container">
           <div class="row">
-            <div class="col-9">
+            <div class="col-sm-12 col-md-12 col-lg-9 col-xl-9 rightbar">
               <div class="blogpost mb-5">
                 <div class="image-container">
                   <a href="">
@@ -111,9 +111,94 @@
                 </div>
               </div>
             </div>
+            <div class="col-sm-12 col-md-12 col-lg-3 col-xl-3 leftbar">
+              <aside class="aside">
+                <div class="input-group mb-3">
+                  <input
+                    type="text"
+                    class="form-control"
+                    placeholder="Search here"
+                    aria-label="Recipient's username"
+                    aria-describedby="button-addon2"
+                  />
+                  <button
+                    class="btn btn-outline-secondary"
+                    type="button"
+                    id="button-addon2"
+                  >
+                    <i class="bi bi-search"></i>
+                  </button>
+                </div>
+                <div class="category-container mt-4">
+                  <p>categories</p>
+                  <ul>
+                    <li><a href="">bouquets</a></li>
+                    <li><a href="">cactuses</a></li>
+                    <li><a href="">exotic blooms</a></li>
+                    <li><a href="">greens</a></li>
+                    <li><a href="">plants</a></li>
+                    <li><a href="">roses</a></li>
+                  </ul>
+                </div>
+                <div class="recent-container">
+                  <p>recent posts</p>
+                  <a href=""
+                    ><div class="mini-container d-flex align-items-center mb-2">
+                      <div class="image-container">
+                        <img
+                          src="https://fiorello.qodeinteractive.com/wp-content/uploads/2018/05/blog-feature-img-8-150x100.jpg"
+                          alt=""
+                        />
+                      </div>
+                      <div class="info-container ms-3 mt-3">
+                        <p class="care-cls">say you care</p>
+                        <p class="time">04.05.2018</p>
+                      </div>
+                    </div></a
+                  >
+                  <a href=""
+                    ><div class="mini-container d-flex align-items-center mb-2">
+                      <div class="image-container">
+                        <img
+                          src="https://fiorello.qodeinteractive.com/wp-content/uploads/2018/05/blog-feature-img-9-150x100.jpg"
+                          alt=""
+                        />
+                      </div>
+                      <div class="info-container ms-3 mt-3">
+                        <p class="care-cls">with impact</p>
+                        <p class="time">04.05.2018</p>
+                      </div>
+                    </div></a
+                  >
+                  <a href=""
+                    ><div class="mini-container d-flex align-items-center mb-2">
+                      <div class="image-container">
+                        <img
+                          src="https://fiorello.qodeinteractive.com/wp-content/uploads/2018/05/blog-feature-img-10-150x100.jpg"
+                          alt=""
+                        />
+                      </div>
+                      <div class="info-container ms-3 mt-3">
+                        <p class="care-cls">beautiful flowers</p>
+                        <p class="time">04.05.2018</p>
+                      </div>
+                    </div></a
+                  >
+                </div>
+                <div class="ad-container mt-5">
+                  <div class="image-container">
+                    <a href=""
+                      ><img
+                        src="https://fiorello.qodeinteractive.com/wp-content/uploads/2018/05/widget.jpg"
+                        alt=""
+                    /></a>
+                  </div>
+                </div>
+              </aside>
+            </div>
           </div>
           <div class="row">
-            <div class="col-9">
+            <div class="col-sm-12 col-md-12 col-lg-9 col-xl-9 rightbar">
               <div class="blogpost mb-5">
                 <div class="image-container">
                   <a href="">
@@ -153,7 +238,7 @@
             </div>
           </div>
           <div class="row">
-            <div class="col-9">
+            <div class="col-sm-12 col-md-12 col-lg-9 col-xl-9 rightbar">
               <div class="quote mb-5">
                 <div
                   class="quote-container d-flex flex-column align-items-start justify-content-center"
@@ -170,7 +255,7 @@
             </div>
           </div>
           <div class="row">
-            <div class="col-9">
+            <div class="col-sm-12 col-md-12 col-lg-9 col-xl-9 rightbar">
               <div class="blogpost mb-5">
                 <div class="image-container">
                   <a href="">
@@ -208,7 +293,7 @@
             </div>
           </div>
           <div class="row">
-            <div class="col-9">
+            <div class="col-sm-12 col-md-12 col-lg-9 col-xl-9 rightbar">
               <div class="quote">
                 <div
                   class="quote-container d-flex flex-column align-items-start justify-content-center"
@@ -223,7 +308,7 @@
             </div>
           </div>
           <div class="row">
-            <div class="col-9">
+            <div class="col-sm-12 col-md-12 col-lg-9 col-xl-9 rightbar">
               <div
                 class="navigation-icons mb-5 d-flex justify-content-center align-items-center"
               >
@@ -240,68 +325,8 @@
           </div>
         </div>
       </section>
-      <aside>
-        <div class="container">
-          <div class="row">
-            <div class="col-3">
-              <div class="input-group mb-3">
-                <input
-                  type="text"
-                  class="form-control"
-                  placeholder="Search here"
-                  aria-label="Recipient's username"
-                  aria-describedby="button-addon2"
-                />
-                <button
-                  class="btn btn-outline-secondary"
-                  type="button"
-                  id="button-addon2"
-                >
-                  <i class="bi bi-search"></i>
-                </button>
-              </div>
-            </div>
-          </div>
-          <div class="row">
-            <div class="col-3">
-              <div class="category-container mt-4">
-                <p>categories</p>
-                <ul>
-                  <li><a href="">bouquets</a></li>
-                  <li><a href="">cactuses</a></li>
-                  <li><a href="">exotic blooms</a></li>
-                  <li><a href="">greens</a></li>
-                  <li><a href="">plants</a></li>
-                  <li><a href="">roses</a></li>
-                </ul>
-              </div>
-            </div>
-          </div>
-          <div class="row">
-            <div class="col-3">
-              <div class="recent-container">
-                <p>recent posts</p>
-                <a href=""
-                  ><div class="mini-container d-flex align-items-center justify-content-between">
-                    <div class="image-container">
-                      <img
-                        src="https://fiorello.qodeinteractive.com/wp-content/uploads/2018/05/blog-feature-img-8-150x100.jpg"
-                        alt=""
-                      />
-                    </div>
-                    <div class="info-container">
-                      <p>say you care</p>
-                      <p class="time">04.05.2018</p>
-                    </div>
-                  </div></a
-                >
-              </div>
-            </div>
-          </div>
-        </div>
-      </aside>
     </main>
-    <footer>
+    <footer class="footer">
       <div class="container">
         <div class="row">
           <div class="col-sm-12 col-md-12 col-lg-3 col-xl-3 end">
@@ -381,5 +406,7 @@
         </div>
       </div>
     </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
   </body>
 </html>
