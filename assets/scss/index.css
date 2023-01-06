@@ -292,13 +292,13 @@ header #slider .owl-carousel .owl-next {
   box-sizing: border-box;
 }
 
-main #products #navigation-bar .container .row .left ul {
+body main #products #navigation-bar .container .row .left ul {
   padding: 0;
 }
-main #products #navigation-bar .container .row .left ul li {
+body main #products #navigation-bar .container .row .left ul li {
   list-style-type: none;
 }
-main #products #navigation-bar .container .row .left ul li a {
+body main #products #navigation-bar .container .row .left ul li a {
   color: #1b1b1b;
   text-decoration: none;
   text-transform: uppercase;
@@ -307,14 +307,14 @@ main #products #navigation-bar .container .row .left ul li a {
   letter-spacing: 0.1em;
   font-weight: 500;
 }
-main #products #navigation-bar .container .row .left ul li a:hover {
+body main #products #navigation-bar .container .row .left ul li a:hover {
   color: #f34f3f;
   transition: 0.3s;
 }
-main #products #navigation-bar .container .row .left ul li .red {
+body main #products #navigation-bar .container .row .left ul li .red {
   color: #f34f3f;
 }
-main #products #navigation-bar .container .row .right .dropbtn {
+body main #products #navigation-bar .container .row .right .dropbtn {
   font-family: "Montserrat", sans-serif;
   font-size: 12px;
   letter-spacing: 0.1em;
@@ -324,14 +324,14 @@ main #products #navigation-bar .container .row .right .dropbtn {
   background-color: transparent;
   border: none;
 }
-main #products #navigation-bar .container .row .right .dropdown {
+body main #products #navigation-bar .container .row .right .dropdown {
   position: relative;
   display: inline-block;
 }
-main #products #navigation-bar .container .row .right .dropdown:hover .dropdown-content {
+body main #products #navigation-bar .container .row .right .dropdown:hover .dropdown-content {
   display: block;
 }
-main #products #navigation-bar .container .row .right .dropdown-content {
+body main #products #navigation-bar .container .row .right .dropdown-content {
   display: none;
   position: absolute;
   min-width: 400px;
@@ -339,8 +339,8 @@ main #products #navigation-bar .container .row .right .dropdown-content {
   box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
   z-index: 999;
 }
-main #products #navigation-bar .container .row .right .dropdown-content .dropdown-container .first h4,
-main #products #navigation-bar .container .row .right .dropdown-content .dropdown-container .second h4 {
+body main #products #navigation-bar .container .row .right .dropdown-content .dropdown-container .first h4,
+body main #products #navigation-bar .container .row .right .dropdown-content .dropdown-container .second h4 {
   font-family: "Playfair Display", serif;
   color: #464646;
   font-weight: 400;
@@ -348,12 +348,12 @@ main #products #navigation-bar .container .row .right .dropdown-content .dropdow
   text-transform: capitalize;
   margin-left: 2vw;
 }
-main #products #navigation-bar .container .row .right .dropdown-content .dropdown-container .first ul li,
-main #products #navigation-bar .container .row .right .dropdown-content .dropdown-container .second ul li {
+body main #products #navigation-bar .container .row .right .dropdown-content .dropdown-container .first ul li,
+body main #products #navigation-bar .container .row .right .dropdown-content .dropdown-container .second ul li {
   list-style-type: none;
 }
-main #products #navigation-bar .container .row .right .dropdown-content .dropdown-container .first ul li a,
-main #products #navigation-bar .container .row .right .dropdown-content .dropdown-container .second ul li a {
+body main #products #navigation-bar .container .row .right .dropdown-content .dropdown-container .first ul li a,
+body main #products #navigation-bar .container .row .right .dropdown-content .dropdown-container .second ul li a {
   text-decoration: none;
   color: #878787;
   font-family: "Montserrat", sans-serif;
@@ -362,29 +362,29 @@ main #products #navigation-bar .container .row .right .dropdown-content .dropdow
   text-transform: capitalize;
   margin-bottom: 0.2vw;
 }
-main #products #navigation-bar .container .row .right .dropdown-content .dropdown-container .first ul li a:hover,
-main #products #navigation-bar .container .row .right .dropdown-content .dropdown-container .second ul li a:hover {
+body main #products #navigation-bar .container .row .right .dropdown-content .dropdown-container .first ul li a:hover,
+body main #products #navigation-bar .container .row .right .dropdown-content .dropdown-container .second ul li a:hover {
   color: #1b1b1b;
   transition: 0.4s;
 }
-main #products #navigation-bar .container .row .right .dropdown-content a {
+body main #products #navigation-bar .container .row .right .dropdown-content a {
   text-decoration: none;
   display: block;
 }
-main #products #product-images {
+body main #products #product-images {
   display: block;
 }
-main #products #product-images .container .row .column img {
+body main #products #product-images .container .row .column img {
   transition: 0.4s;
   width: 100%;
 }
-main #products #product-images .container .row .column img:hover {
+body main #products #product-images .container .row .column img:hover {
   transform: scale(1.05);
 }
-main #products #product-images .container .row .column a {
+body main #products #product-images .container .row .column a {
   text-decoration: none;
 }
-main #products #product-images .container .row .column h4 {
+body main #products #product-images .container .row .column h4 {
   font-family: "Montserrat", sans-serif;
   font-size: 12px;
   letter-spacing: 0.1em;
@@ -392,7 +392,7 @@ main #products #product-images .container .row .column h4 {
   color: #1b1b1b;
   text-transform: uppercase;
 }
-main #products #product-images .container .row .column p {
+body main #products #product-images .container .row .column p {
   font-family: "Montserrat", sans-serif;
   font-size: 12px;
   letter-spacing: 0.1em;
@@ -400,11 +400,11 @@ main #products #product-images .container .row .column p {
   color: #afafaf;
   text-transform: uppercase;
 }
-main #products #valentine {
+body main #products #valentine {
   padding: 0;
   background-color: #f7f7f7;
 }
-main #products #valentine .container .row div .pop-up-yt-video {
+body main #products #valentine .container .row div .pop-up-yt-video {
   height: 428px;
   background-image: url(https://fiorello.qodeinteractive.com/wp-content/uploads/2018/04/h3-video-img.jpg);
   background-position: center;
@@ -412,13 +412,13 @@ main #products #valentine .container .row div .pop-up-yt-video {
   background-repeat: no-repeat;
   position: relative;
 }
-main #products #valentine .container .row div .pop-up-yt-video a {
+body main #products #valentine .container .row div .pop-up-yt-video a {
   position: absolute;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
 }
-main #products #valentine .container .row div .pop-up-yt-video a i {
+body main #products #valentine .container .row div .pop-up-yt-video a i {
   color: orange;
   background-color: white;
   border: 1px solid white;
@@ -430,37 +430,37 @@ main #products #valentine .container .row div .pop-up-yt-video a i {
   text-align: center;
   line-height: 75px;
 }
-main #products #valentine .container .row .surprise h3 {
+body main #products #valentine .container .row .surprise h3 {
   color: #2b2b2b;
   font-family: "Playfair Display", serif;
   font-size: 38px;
   font-weight: 400;
 }
-main #products #valentine .container .row .surprise h3 span {
+body main #products #valentine .container .row .surprise h3 span {
   color: #f34f3f;
 }
-main #products #valentine .container .row .surprise p {
+body main #products #valentine .container .row .surprise p {
   color: #6d6a6a;
   font-family: "Lora", serif;
   font-weight: 400;
   font-size: 17px;
 }
-main #products #valentine .container .row .surprise ul li {
+body main #products #valentine .container .row .surprise ul li {
   list-style-type: none;
   color: #6d6a6a;
   font-family: "Lora", serif;
   font-weight: 400;
   font-size: 17px;
 }
-main #products #valentine .container .row .surprise ul li i {
+body main #products #valentine .container .row .surprise ul li i {
   color: #f34f3f;
   font-size: 18px;
 }
-main #products #experts {
+body main #products #experts {
   margin-top: 10vw;
   margin-bottom: 8vw;
 }
-main #products #experts .container .row .information-about-experts h3 {
+body main #products #experts .container .row .information-about-experts h3 {
   color: #2b2b2b;
   font-family: "Playfair Display", serif;
   font-size: 38px;
@@ -468,7 +468,7 @@ main #products #experts .container .row .information-about-experts h3 {
   text-align: center;
   text-transform: capitalize;
 }
-main #products #experts .container .row .information-about-experts p {
+body main #products #experts .container .row .information-about-experts p {
   margin-top: 1.5vw;
   color: #6d6a6a;
   font-family: "Lora", serif;
@@ -476,10 +476,10 @@ main #products #experts .container .row .information-about-experts p {
   font-size: 17px;
   text-align: center;
 }
-main #products #experts .container .row .col-sm-12 .expert-information .main-info {
+body main #products #experts .container .row .col-sm-12 .expert-information .main-info {
   text-align: center;
 }
-main #products #experts .container .row .col-sm-12 .expert-information .main-info h5 {
+body main #products #experts .container .row .col-sm-12 .expert-information .main-info h5 {
   font-family: "Montserrat", sans-serif;
   font-size: 12px;
   letter-spacing: 0.1em;
@@ -487,7 +487,7 @@ main #products #experts .container .row .col-sm-12 .expert-information .main-inf
   color: #1b1b1b;
   text-transform: uppercase;
 }
-main #products #experts .container .row .col-sm-12 .expert-information .main-info p {
+body main #products #experts .container .row .col-sm-12 .expert-information .main-info p {
   font-family: "Montserrat", sans-serif;
   font-size: 12px;
   letter-spacing: 0.1em;
@@ -495,7 +495,7 @@ main #products #experts .container .row .col-sm-12 .expert-information .main-inf
   color: #afafaf;
   text-transform: capitalize;
 }
-main #products #parallax-effect .parallax-image {
+body main #products #parallax-effect .parallax-image {
   background-image: url("https://fiorello.qodeinteractive.com/wp-content/uploads/2018/05/h3-background-img.jpg");
   min-height: 600px;
   background-attachment: fixed;
@@ -503,10 +503,10 @@ main #products #parallax-effect .parallax-image {
   background-repeat: no-repeat;
   background-size: cover;
 }
-main #products #parallax-effect .parallax-image .email .container .row .newsletter {
+body main #products #parallax-effect .parallax-image .email .container .row .newsletter {
   margin-top: 12vw;
 }
-main #products #parallax-effect .parallax-image .email .container .row .newsletter h4 {
+body main #products #parallax-effect .parallax-image .email .container .row .newsletter h4 {
   text-align: center;
   color: white;
   font-family: "Playfair Display", serif;
@@ -514,7 +514,7 @@ main #products #parallax-effect .parallax-image .email .container .row .newslett
   font-weight: 400;
   text-transform: capitalize;
 }
-main #products #parallax-effect .parallax-image .email .container .row .newsletter .input-container input {
+body main #products #parallax-effect .parallax-image .email .container .row .newsletter .input-container input {
   padding: 1.2vw 20vw 1.2vw 0.7vw;
   text-align: start;
   color: #cecbcb;
@@ -522,7 +522,7 @@ main #products #parallax-effect .parallax-image .email .container .row .newslett
   font-family: "Montserrat", sans-serif;
   border: 1px solid #afafaf;
 }
-main #products #parallax-effect .parallax-image .email .container .row .newsletter .input-container button {
+body main #products #parallax-effect .parallax-image .email .container .row .newsletter .input-container button {
   border: 1px solid #f34f3f;
   background-color: #f34f3f;
   color: white;
@@ -531,36 +531,36 @@ main #products #parallax-effect .parallax-image .email .container .row .newslett
   font-size: 12px;
   padding: 0 2vw;
 }
-main #products #parallax-effect .parallax-image .email .container .row .newsletter .input-container::after {
+body main #products #parallax-effect .parallax-image .email .container .row .newsletter .input-container::after {
   content: "";
   clear: both;
   display: table;
 }
-main #products #blog {
+body main #products #blog {
   padding-top: 7vw;
   padding-bottom: 7vw;
   background-color: #f8f8f8;
 }
-main #products #blog .container .row .blog-text h3 {
+body main #products #blog .container .row .blog-text h3 {
   font-family: "Playfair Display", serif;
   font-size: 38px;
   color: #2b2b2b;
   font-weight: 400;
   text-align: center;
 }
-main #products #blog .container .row .blog-text p {
+body main #products #blog .container .row .blog-text p {
   font-family: "Lora", serif;
   font-size: 17px;
   color: #6d6a6a;
   text-align: center;
 }
-main #products #blog .container .row .blog-images .blog-container .image-container img {
+body main #products #blog .container .row .blog-images .blog-container .image-container img {
   width: 100%;
 }
-main #products #blog .container .row .blog-images .blog-container a {
+body main #products #blog .container .row .blog-images .blog-container a {
   text-decoration: none;
 }
-main #products #blog .container .row .blog-images .blog-container a h5 {
+body main #products #blog .container .row .blog-images .blog-container a h5 {
   font-family: "Playfair Display", serif;
   color: #2b2b2b;
   font-size: 22px;
@@ -568,38 +568,38 @@ main #products #blog .container .row .blog-images .blog-container a h5 {
   text-transform: capitalize;
   text-align: center;
 }
-main #products #blog .container .row .blog-images .blog-container p {
+body main #products #blog .container .row .blog-images .blog-container p {
   font-family: "Lora", serif;
   color: #6d6a6a;
   font-weight: 400;
   font-size: 15px;
   text-align: center;
 }
-main #products #second-slide {
+body main #products #second-slide {
   margin-top: 7vw;
   margin-bottom: 7vw;
 }
-main #products #second-slide .owl-carousel .both {
+body main #products #second-slide .owl-carousel .both {
   font-size: 26px;
   font-weight: 300;
   position: relative;
   bottom: 10vw;
   color: #afafaf;
 }
-main #products #second-slide .owl-carousel .owl-prev,
-main #products #second-slide .owl-carousel .owl-next {
+body main #products #second-slide .owl-carousel .owl-prev,
+body main #products #second-slide .owl-carousel .owl-next {
   background: none !important;
 }
-main #products #second-slide .owl-carousel .left {
+body main #products #second-slide .owl-carousel .left {
   right: 20vw;
 }
-main #products #second-slide .owl-carousel .right {
+body main #products #second-slide .owl-carousel .right {
   left: 20vw;
 }
-main #products #second-slide .owl-carousel .item .slide .image-container img {
+body main #products #second-slide .owl-carousel .item .slide .image-container img {
   width: 5%;
 }
-main #products #second-slide .owl-carousel .item .slide h5 {
+body main #products #second-slide .owl-carousel .item .slide h5 {
   font-family: "Lora", serif;
   font-size: 24px;
   color: #4b4747;
@@ -607,69 +607,68 @@ main #products #second-slide .owl-carousel .item .slide h5 {
   font-style: italic;
   font-weight: 300;
 }
-main #products #second-slide .owl-carousel .item .slide p {
+body main #products #second-slide .owl-carousel .item .slide p {
   text-align: center;
 }
-main #products #second-slide .owl-carousel .item .slide .name {
+body main #products #second-slide .owl-carousel .item .slide .name {
   font-family: "Montserrat", sans-serif;
   font-size: 12px;
   color: #1b1b1b;
   text-transform: uppercase;
   font-weight: 500;
 }
-main #products #second-slide .owl-carousel .item .slide .job {
+body main #products #second-slide .owl-carousel .item .slide .job {
   color: #afafaf;
   font-size: 12px;
   font-weight: 500;
 }
-
-footer {
+body footer {
   background-color: #fefaf3;
 }
-footer .container {
+body footer .container {
   padding-top: 5vw;
   padding-bottom: 1vw;
 }
-footer .container .row .end {
+body footer .container .row .end {
   margin-bottom: 2vw;
 }
-footer .container .row .end .footer-container p {
+body footer .container .row .end .footer-container p {
   color: black;
   font-family: "Montserrat", sans-serif;
   font-size: 12px;
   font-weight: 500;
   text-transform: uppercase;
 }
-footer .container .row .end .footer-container ul {
+body footer .container .row .end .footer-container ul {
   margin: 0;
   padding: 0;
 }
-footer .container .row .end .footer-container ul li {
+body footer .container .row .end .footer-container ul li {
   list-style-type: none;
 }
-footer .container .row .end .footer-container ul li a {
+body footer .container .row .end .footer-container ul li a {
   text-decoration: none;
   color: #8b8b8b;
   font-family: "Montserrat", sans-serif;
   font-size: 12px;
 }
-footer .container .row .end .footer-container ul li a:hover {
+body footer .container .row .end .footer-container ul li a:hover {
   color: #f34f3f;
   transition: 0.4s;
 }
-footer .container .second {
+body footer .container .second {
   border-top: 1px solid #d9d5cf;
 }
-footer .container .second .footer-info-container p {
+body footer .container .second .footer-info-container p {
   color: #afafaf;
   font-family: "Montserrat", sans-serif;
   font-size: 12px;
   font-weight: 500;
 }
-footer .container .second .footer-info-container p span {
+body footer .container .second .footer-info-container p span {
   color: #6d6a6a;
 }
-footer .container .second .social-media .socials a {
+body footer .container .second .social-media .socials a {
   color: #afafaf;
   font-family: "Montserrat", sans-serif;
   font-size: 10px;
@@ -678,7 +677,7 @@ footer .container .second .social-media .socials a {
   text-transform: uppercase;
   letter-spacing: 0.2em;
 }
-footer .container .second .social-media .socials a:hover {
+body footer .container .second .social-media .socials a:hover {
   color: #f34f3f;
   transition: 0.4s;
 }
@@ -1044,6 +1043,85 @@ main #products #second-slide .owl-carousel .owl-next {
     font-size: 12px;
     font-weight: 500;
   }
+  footer {
+    background-color: #fefaf3;
+  }
+  footer .container {
+    padding-top: 5vw;
+    padding-bottom: 1vw;
+  }
+  footer .container .row {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  footer .container .row .end {
+    margin-bottom: 2vw;
+  }
+  footer .container .row .end .footer-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  footer .container .row .end .footer-container p {
+    color: black;
+    font-family: "Montserrat", sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+    text-transform: uppercase;
+    text-align: left;
+  }
+  footer .container .row .end .footer-container ul {
+    margin: 0;
+    padding: 0;
+  }
+  footer .container .row .end .footer-container ul li {
+    text-align: center;
+    list-style-type: none;
+  }
+  footer .container .row .end .footer-container ul li a {
+    text-decoration: none;
+    color: #8b8b8b;
+    font-family: "Montserrat", sans-serif;
+    font-size: 16px;
+    text-align: center;
+  }
+  footer .container .row .end .footer-container ul li a:hover {
+    color: #f34f3f;
+    transition: 0.4s;
+  }
+  footer .container .second {
+    border-top: 1px solid #d9d5cf;
+  }
+  footer .container .second .footer-info-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  footer .container .second .footer-info-container p {
+    color: #afafaf;
+    font-family: "Montserrat", sans-serif;
+    font-size: 12px;
+    font-weight: 500;
+  }
+  footer .container .second .footer-info-container p span {
+    color: #6d6a6a;
+  }
+  footer .container .second .social-media .socials a {
+    color: #afafaf;
+    font-family: "Montserrat", sans-serif;
+    font-size: 10px;
+    font-weight: 500;
+    text-decoration: none;
+    text-transform: uppercase;
+    letter-spacing: 0.2em;
+  }
+  footer .container .second .social-media .socials a:hover {
+    color: #f34f3f;
+    transition: 0.4s;
+  }
 }
 @media (max-width: 576px) {
   main #products #navigation-bar .container .row {
@@ -1406,89 +1484,6 @@ main #products #second-slide .owl-carousel .owl-next {
     font-size: 12px;
     font-weight: 500;
   }
-}
-@media (max-width: 991px) {
-  footer {
-    background-color: #fefaf3;
-  }
-  footer .container {
-    padding-top: 5vw;
-    padding-bottom: 1vw;
-  }
-  footer .container .row {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-  }
-  footer .container .row .end {
-    margin-bottom: 2vw;
-  }
-  footer .container .row .end .footer-container {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-  }
-  footer .container .row .end .footer-container p {
-    color: black;
-    font-family: "Montserrat", sans-serif;
-    font-size: 18px;
-    font-weight: 500;
-    text-transform: uppercase;
-    text-align: left;
-  }
-  footer .container .row .end .footer-container ul {
-    margin: 0;
-    padding: 0;
-  }
-  footer .container .row .end .footer-container ul li {
-    text-align: center;
-    list-style-type: none;
-  }
-  footer .container .row .end .footer-container ul li a {
-    text-decoration: none;
-    color: #8b8b8b;
-    font-family: "Montserrat", sans-serif;
-    font-size: 16px;
-    text-align: center;
-  }
-  footer .container .row .end .footer-container ul li a:hover {
-    color: #f34f3f;
-    transition: 0.4s;
-  }
-  footer .container .second {
-    border-top: 1px solid #d9d5cf;
-  }
-  footer .container .second .footer-info-container {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-  }
-  footer .container .second .footer-info-container p {
-    color: #afafaf;
-    font-family: "Montserrat", sans-serif;
-    font-size: 12px;
-    font-weight: 500;
-  }
-  footer .container .second .footer-info-container p span {
-    color: #6d6a6a;
-  }
-  footer .container .second .social-media .socials a {
-    color: #afafaf;
-    font-family: "Montserrat", sans-serif;
-    font-size: 10px;
-    font-weight: 500;
-    text-decoration: none;
-    text-transform: uppercase;
-    letter-spacing: 0.2em;
-  }
-  footer .container .second .social-media .socials a:hover {
-    color: #f34f3f;
-    transition: 0.4s;
-  }
-}
-@media (max-width: 576px) {
   footer {
     background-color: #fefaf3;
   }

@@ -286,6 +286,10 @@ header #slider .owl-carousel .owl-next {
     left: 44vw !important;
   }
 }
+* {
+  box-sizing: border-box;
+}
+
 body header #category-filter {
   background-color: #fafaf9;
   padding: 3vw 0;
