@@ -123,15 +123,15 @@ body header #parallax-effect .parallax-image .email .container .row .newsletter 
 body main #first-post {
   margin-top: 5vw;
 }
-body main #first-post .container .row .rightbar .blogpost .text-container {
-  margin-top: 2vw;
-}
 body main #first-post .container .row .rightbar .blogpost .text-container a {
   color: #2b2b2b;
   font-family: "Playfair Display", serif;
   font-size: 30px;
   font-weight: 400;
   text-decoration: none;
+}
+body main #first-post .container .row .rightbar .blogpost .text-container a span {
+  color: #f34f3f;
 }
 body main #first-post .container .row .rightbar .blogpost .text-container p {
   margin-top: 1.5vw;
@@ -193,9 +193,6 @@ body main .row .rightbar .blogpost .text-container p {
 }
 body main .row .row .rightbar .blogpost .image-container a img {
   width: 100%;
-}
-body main .row .row .rightbar .blogpost .text-container {
-  margin-top: 2vw;
 }
 body main .row .row .rightbar .blogpost .text-container a {
   color: #2b2b2b;

@@ -54,13 +54,15 @@ body {
           .rightbar {
             .blogpost {
               .text-container {
-                margin-top: 2vw;
                 a {
                   color: #2b2b2b;
                   font-family: "Playfair Display", serif;
                   font-size: 30px;
                   font-weight: 400;
                   text-decoration: none;
+                  span {
+                    color: #f34f3f;
+                  }
                 }
                 p {
                   margin-top: 1.5vw;
@@ -150,7 +152,6 @@ body {
               }
             }
             .text-container {
-              margin-top: 2vw;
               a {
                 color: #2b2b2b;
                 font-family: "Playfair Display", serif;
