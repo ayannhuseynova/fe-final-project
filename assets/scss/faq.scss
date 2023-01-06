@@ -241,3 +241,256 @@ body {
     }
   }
 }
+
+@media (max-width: 991px) {
+  body {
+    header {
+      #parallax-effect {
+        .parallax-image {
+          background-image: url("https://fiorello.qodeinteractive.com/wp-content/uploads/2018/05/p1-title-img.jpg");
+          min-height: 240px;
+          background-attachment: fixed;
+          background-position: center;
+          background-repeat: no-repeat;
+          background-size: cover;
+          .email {
+            .container {
+              .row {
+                .newsletter {
+                  .about-container {
+                    margin-top: 6vw;
+                    h4 {
+                      text-align: center;
+                      color: #0e0e0e;
+                      font-family: "Playfair Display", serif;
+                      font-size: 50px;
+                      font-weight: 400;
+                      text-transform: capitalize;
+                      vertical-align: middle;
+                    }
+                    p {
+                      font-size: 17px;
+                      font-family: "Lora", serif;
+                      color: #6d6a6a;
+                      font-style: italic;
+                      vertical-align: middle;
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+    footer {
+      background-color: #fefaf3;
+      .container {
+        padding-top: 5vw;
+        padding-bottom: 1vw;
+        .row {
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+          align-items: center;
+          .end {
+            margin-bottom: 2vw;
+            .footer-container {
+              display: flex;
+              flex-direction: column;
+              align-items: center;
+              p {
+                color: black;
+                font-family: "Montserrat", sans-serif;
+                font-size: 18px;
+                font-weight: 500;
+                text-transform: uppercase;
+                text-align: left;
+              }
+              ul {
+                margin: 0;
+                padding: 0;
+                li {
+                  text-align: center;
+                  list-style-type: none;
+                  a {
+                    text-decoration: none;
+                    color: #8b8b8b;
+                    font-family: "Montserrat", sans-serif;
+                    font-size: 16px;
+                    text-align: center;
+                  }
+                  a:hover {
+                    color: #f34f3f;
+                    transition: 0.4s;
+                  }
+                }
+              }
+            }
+          }
+        }
+        .second {
+          border-top: 1px solid #d9d5cf;
+          .footer-info-container {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            p {
+              color: #afafaf;
+              font-family: "Montserrat", sans-serif;
+              font-size: 12px;
+              font-weight: 500;
+              span {
+                color: #6d6a6a;
+              }
+            }
+          }
+          .social-media {
+            .socials {
+              a {
+                color: #afafaf;
+                font-family: "Montserrat", sans-serif;
+                font-size: 10px;
+                font-weight: 500;
+                text-decoration: none;
+                text-transform: uppercase;
+                letter-spacing: 0.2em;
+              }
+              a:hover {
+                color: #f34f3f;
+                transition: 0.4s;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 576px) {
+  header {
+    #parallax-effect {
+      .parallax-image {
+        background-image: url("https://fiorello.qodeinteractive.com/wp-content/uploads/2018/05/p1-title-img.jpg");
+        min-height: 190px !important;
+        background-attachment: fixed;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        .email {
+          .container {
+            .row {
+              .newsletter {
+                .about-container {
+                  margin-top: 6vw;
+                  h4 {
+                    text-align: center;
+                    color: #0e0e0e;
+                    font-family: "Playfair Display", serif;
+                    font-size: 50px;
+                    font-weight: 400;
+                    text-transform: capitalize;
+                    vertical-align: middle;
+                  }
+                  p {
+                    font-size: 17px;
+                    font-family: "Lora", serif;
+                    color: #6d6a6a;
+                    font-style: italic;
+                    vertical-align: middle;
+                    text-align: center;
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+  footer {
+    background-color: #fefaf3;
+    .container {
+      padding-top: 5vw;
+      padding-bottom: 1vw;
+      .row {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        .end {
+          margin-bottom: 2vw;
+          .footer-container {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            p {
+              color: black;
+              font-family: "Montserrat", sans-serif;
+              font-size: 18px;
+              font-weight: 500;
+              text-transform: uppercase;
+              text-align: left;
+            }
+            ul {
+              margin: 0;
+              padding: 0;
+              li {
+                text-align: center;
+                list-style-type: none;
+                a {
+                  text-decoration: none;
+                  color: #8b8b8b;
+                  font-family: "Montserrat", sans-serif;
+                  font-size: 16px;
+                  text-align: center;
+                }
+                a:hover {
+                  color: #f34f3f;
+                  transition: 0.4s;
+                }
+              }
+            }
+          }
+        }
+      }
+      .second {
+        border-top: 1px solid #d9d5cf;
+        .footer-info-container {
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+          align-items: center;
+          p {
+            color: #afafaf;
+            font-family: "Montserrat", sans-serif;
+            font-size: 12px;
+            font-weight: 500;
+            span {
+              color: #6d6a6a;
+            }
+          }
+        }
+        .social-media {
+          .socials {
+            a {
+              color: #afafaf;
+              font-family: "Montserrat", sans-serif;
+              font-size: 10px;
+              font-weight: 500;
+              text-decoration: none;
+              text-transform: uppercase;
+              letter-spacing: 0.2em;
+            }
+            a:hover {
+              color: #f34f3f;
+              transition: 0.4s;
+            }
+          }
+        }
+      }
+    }
+  }
+}

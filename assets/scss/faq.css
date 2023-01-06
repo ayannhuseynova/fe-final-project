@@ -465,4 +465,222 @@ body footer .container .second .social-media .socials a {
 body footer .container .second .social-media .socials a:hover {
   color: #f34f3f;
   transition: 0.4s;
+}
+
+@media (max-width: 991px) {
+  body header #parallax-effect .parallax-image {
+    background-image: url("https://fiorello.qodeinteractive.com/wp-content/uploads/2018/05/p1-title-img.jpg");
+    min-height: 240px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  body header #parallax-effect .parallax-image .email .container .row .newsletter .about-container {
+    margin-top: 6vw;
+  }
+  body header #parallax-effect .parallax-image .email .container .row .newsletter .about-container h4 {
+    text-align: center;
+    color: #0e0e0e;
+    font-family: "Playfair Display", serif;
+    font-size: 50px;
+    font-weight: 400;
+    text-transform: capitalize;
+    vertical-align: middle;
+  }
+  body header #parallax-effect .parallax-image .email .container .row .newsletter .about-container p {
+    font-size: 17px;
+    font-family: "Lora", serif;
+    color: #6d6a6a;
+    font-style: italic;
+    vertical-align: middle;
+  }
+  body footer {
+    background-color: #fefaf3;
+  }
+  body footer .container {
+    padding-top: 5vw;
+    padding-bottom: 1vw;
+  }
+  body footer .container .row {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  body footer .container .row .end {
+    margin-bottom: 2vw;
+  }
+  body footer .container .row .end .footer-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  body footer .container .row .end .footer-container p {
+    color: black;
+    font-family: "Montserrat", sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+    text-transform: uppercase;
+    text-align: left;
+  }
+  body footer .container .row .end .footer-container ul {
+    margin: 0;
+    padding: 0;
+  }
+  body footer .container .row .end .footer-container ul li {
+    text-align: center;
+    list-style-type: none;
+  }
+  body footer .container .row .end .footer-container ul li a {
+    text-decoration: none;
+    color: #8b8b8b;
+    font-family: "Montserrat", sans-serif;
+    font-size: 16px;
+    text-align: center;
+  }
+  body footer .container .row .end .footer-container ul li a:hover {
+    color: #f34f3f;
+    transition: 0.4s;
+  }
+  body footer .container .second {
+    border-top: 1px solid #d9d5cf;
+  }
+  body footer .container .second .footer-info-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  body footer .container .second .footer-info-container p {
+    color: #afafaf;
+    font-family: "Montserrat", sans-serif;
+    font-size: 12px;
+    font-weight: 500;
+  }
+  body footer .container .second .footer-info-container p span {
+    color: #6d6a6a;
+  }
+  body footer .container .second .social-media .socials a {
+    color: #afafaf;
+    font-family: "Montserrat", sans-serif;
+    font-size: 10px;
+    font-weight: 500;
+    text-decoration: none;
+    text-transform: uppercase;
+    letter-spacing: 0.2em;
+  }
+  body footer .container .second .social-media .socials a:hover {
+    color: #f34f3f;
+    transition: 0.4s;
+  }
+}
+@media (max-width: 576px) {
+  header #parallax-effect .parallax-image {
+    background-image: url("https://fiorello.qodeinteractive.com/wp-content/uploads/2018/05/p1-title-img.jpg");
+    min-height: 190px !important;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  header #parallax-effect .parallax-image .email .container .row .newsletter .about-container {
+    margin-top: 6vw;
+  }
+  header #parallax-effect .parallax-image .email .container .row .newsletter .about-container h4 {
+    text-align: center;
+    color: #0e0e0e;
+    font-family: "Playfair Display", serif;
+    font-size: 50px;
+    font-weight: 400;
+    text-transform: capitalize;
+    vertical-align: middle;
+  }
+  header #parallax-effect .parallax-image .email .container .row .newsletter .about-container p {
+    font-size: 17px;
+    font-family: "Lora", serif;
+    color: #6d6a6a;
+    font-style: italic;
+    vertical-align: middle;
+    text-align: center;
+  }
+  footer {
+    background-color: #fefaf3;
+  }
+  footer .container {
+    padding-top: 5vw;
+    padding-bottom: 1vw;
+  }
+  footer .container .row {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  footer .container .row .end {
+    margin-bottom: 2vw;
+  }
+  footer .container .row .end .footer-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  footer .container .row .end .footer-container p {
+    color: black;
+    font-family: "Montserrat", sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+    text-transform: uppercase;
+    text-align: left;
+  }
+  footer .container .row .end .footer-container ul {
+    margin: 0;
+    padding: 0;
+  }
+  footer .container .row .end .footer-container ul li {
+    text-align: center;
+    list-style-type: none;
+  }
+  footer .container .row .end .footer-container ul li a {
+    text-decoration: none;
+    color: #8b8b8b;
+    font-family: "Montserrat", sans-serif;
+    font-size: 16px;
+    text-align: center;
+  }
+  footer .container .row .end .footer-container ul li a:hover {
+    color: #f34f3f;
+    transition: 0.4s;
+  }
+  footer .container .second {
+    border-top: 1px solid #d9d5cf;
+  }
+  footer .container .second .footer-info-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  footer .container .second .footer-info-container p {
+    color: #afafaf;
+    font-family: "Montserrat", sans-serif;
+    font-size: 12px;
+    font-weight: 500;
+  }
+  footer .container .second .footer-info-container p span {
+    color: #6d6a6a;
+  }
+  footer .container .second .social-media .socials a {
+    color: #afafaf;
+    font-family: "Montserrat", sans-serif;
+    font-size: 10px;
+    font-weight: 500;
+    text-decoration: none;
+    text-transform: uppercase;
+    letter-spacing: 0.2em;
+  }
+  footer .container .second .social-media .socials a:hover {
+    color: #f34f3f;
+    transition: 0.4s;
+  }
 }/*# sourceMappingURL=faq.css.map */
