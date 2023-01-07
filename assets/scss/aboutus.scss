@@ -6,276 +6,39 @@
 * {
   box-sizing: border-box;
 }
-body {
+body{
   header {
-    #parallax-effect {
-      .parallax-image {
-        background-image: url("https://fiorello.qodeinteractive.com/wp-content/uploads/2018/05/p1-title-img.jpg");
-        min-height: 300px;
-        background-attachment: fixed;
-        background-position: center;
-        background-repeat: no-repeat;
-        background-size: cover;
-        .email {
-          .container {
-            .row {
-              .newsletter {
-                .about-container {
-                  margin-top: 6vw;
-                  h4 {
-                    text-align: center;
-                    color: #0e0e0e;
-                    font-family: "Playfair Display", serif;
-                    font-size: 50px;
-                    font-weight: 400;
-                    text-transform: capitalize;
-                    vertical-align: middle;
-                  }
-                  p {
-                    font-size: 17px;
-                    font-family: "Lora", serif;
-                    color: #6d6a6a;
-                    font-style: italic;
-                    vertical-align: middle;
-                  }
-                }
-              }
-            }
-          }
-        }
-      }
-    }
-  }
-  main {
-    #valentine {
-      padding: 8vw 0;
-      .container {
-        .row {
-          div {
-            .pop-up-yt-video {
-              height: 428px;
-              background-image: url(https://fiorello.qodeinteractive.com/wp-content/uploads/2018/04/h3-video-img.jpg);
-              background-position: center;
-              background-size: cover;
-              background-repeat: no-repeat;
-              position: relative;
-              a {
-                position: absolute;
-                top: 50%;
-                left: 50%;
-                transform: translate(-50%, -50%);
-                i {
-                  color: orange;
-                  background-color: white;
-                  border: 1px solid white;
-                  border-radius: 50%;
-                  display: inline-block;
-                  width: 75px;
-                  height: 75px;
-                  font-size: 50px;
+  #parallax-effect {
+    .parallax-image {
+      background-image: url("https://fiorello.qodeinteractive.com/wp-content/uploads/2018/05/p1-title-img.jpg");
+      min-height: 300px;
+      background-attachment: fixed;
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+      .email {
+        .container {
+          .row {
+            .newsletter {
+              .about-container {
+                margin-top: 6vw;
+                h4 {
                   text-align: center;
-                  line-height: 75px; //align items center
-                }
-              }
-            }
-          }
-          .surprise {
-            h3 {
-              color: #2b2b2b;
-              font-family: "Playfair Display", serif;
-              font-size: 38px;
-              font-weight: 400;
-              span {
-                color: #f34f3f;
-              }
-            }
-            p {
-              margin-top: 1vw;
-              color: #6d6a6a;
-              font-family: "Lora", serif;
-              font-weight: 400;
-              font-size: 17px;
-              word-spacing: 0.2em;
-            }
-            img {
-              margin-top: 1vw;
-              width: 40%;
-            }
-          }
-        }
-      }
-    }
-    #experts {
-      background-color: #f8f8f8;
-      padding-top: 10vw;
-      padding-bottom: 8vw;
-      .container {
-        .row {
-          .information-about-experts {
-            h3 {
-              color: #2b2b2b;
-              font-family: "Playfair Display", serif;
-              font-size: 38px;
-              font-weight: 400;
-              text-align: center;
-              text-transform: capitalize;
-            }
-            p {
-              margin-top: 1.5vw;
-              color: #6d6a6a;
-              font-family: "Lora", serif;
-              font-weight: 400;
-              font-size: 17px;
-              text-align: center;
-            }
-          }
-        }
-        .row {
-          .col-sm-12 {
-            .expert-information {
-              .main-info {
-                text-align: center;
-                h5 {
-                  font-family: "Montserrat", sans-serif;
-                  font-size: 12px;
-                  letter-spacing: 0.1em;
-                  font-weight: 500;
-                  color: #1b1b1b;
-                  text-transform: uppercase;
+                  color: #0e0e0e;
+                  font-family: "Playfair Display", serif;
+                  font-size: 50px;
+                  font-weight: 400;
+                  text-transform: capitalize;
+                  vertical-align: middle;
                 }
                 p {
-                  font-family: "Montserrat", sans-serif;
-                  font-size: 12px;
-                  letter-spacing: 0.1em;
-                  font-weight: 500;
-                  color: #afafaf;
-                  text-transform: capitalize;
+                  font-size: 17px;
+                  font-family: "Lora", serif;
+                  color: #6d6a6a;
+                  font-style: italic;
+                  vertical-align: middle;
                 }
               }
-            }
-          }
-        }
-      }
-    }
-    #second-slide {
-      margin-top: 7vw;
-      margin-bottom: 7vw;
-      .owl-carousel {
-        .both {
-          font-size: 26px;
-          font-weight: 300;
-          position: relative;
-          bottom: 10vw;
-          color: #afafaf;
-        }
-        .owl-prev,
-        .owl-next {
-          background: none !important;
-        }
-        .left {
-          right: 20vw;
-        }
-        .right {
-          left: 20vw;
-        }
-        .item {
-          .slide {
-            .image-container {
-              img {
-                width: 5%;
-              }
-            }
-            h5 {
-              font-family: "Lora", serif;
-              font-size: 24px;
-              color: #4b4747;
-              text-align: center;
-              font-style: italic;
-              font-weight: 300;
-            }
-            p {
-              text-align: center;
-            }
-            .name {
-              font-family: "Montserrat", sans-serif;
-              font-size: 12px;
-              color: #1b1b1b;
-              text-transform: uppercase;
-              font-weight: 500;
-            }
-            .job {
-              color: #afafaf;
-              font-size: 12px;
-              font-weight: 500;
-            }
-          }
-        }
-      }
-    }
-  }
-  footer {
-    background-color: #fefaf3;
-    .container {
-      padding-top: 5vw;
-      padding-bottom: 1vw;
-      .row {
-        .end {
-          margin-bottom: 2vw;
-          .footer-container {
-            p {
-              color: black;
-              font-family: "Montserrat", sans-serif;
-              font-size: 12px;
-              font-weight: 500;
-              text-transform: uppercase;
-            }
-            ul {
-              margin: 0;
-              padding: 0;
-              li {
-                list-style-type: none;
-                a {
-                  text-decoration: none;
-                  color: #8b8b8b;
-                  font-family: "Montserrat", sans-serif;
-                  font-size: 12px;
-                }
-                a:hover {
-                  color: #f34f3f;
-                  transition: 0.4s;
-                }
-              }
-            }
-          }
-        }
-      }
-      .second {
-        border-top: 1px solid #d9d5cf;
-        .footer-info-container {
-          p {
-            color: #afafaf;
-            font-family: "Montserrat", sans-serif;
-            font-size: 12px;
-            font-weight: 500;
-            span {
-              color: #6d6a6a;
-            }
-          }
-        }
-        .social-media {
-          .socials {
-            a {
-              color: #afafaf;
-              font-family: "Montserrat", sans-serif;
-              font-size: 10px;
-              font-weight: 500;
-              text-decoration: none;
-              text-transform: uppercase;
-              letter-spacing: 0.2em;
-            }
-            a:hover {
-              color: #f34f3f;
-              transition: 0.4s;
             }
           }
         }
@@ -283,6 +46,245 @@ body {
     }
   }
 }
+main {
+  #valentine {
+    padding: 8vw 0;
+    .container {
+      .row {
+        div {
+          .pop-up-yt-video {
+            height: 428px;
+            background-image: url(https://fiorello.qodeinteractive.com/wp-content/uploads/2018/04/h3-video-img.jpg);
+            background-position: center;
+            background-size: cover;
+            background-repeat: no-repeat;
+            position: relative;
+            a {
+              position: absolute;
+              top: 50%;
+              left: 50%;
+              transform: translate(-50%, -50%);
+              i {
+                color: orange;
+                background-color: white;
+                border: 1px solid white;
+                border-radius: 50%;
+                display: inline-block;
+                width: 75px;
+                height: 75px;
+                font-size: 50px;
+                text-align: center;
+                line-height: 75px; //align items center
+              }
+            }
+          }
+        }
+        .surprise {
+          h3 {
+            color: #2b2b2b;
+            font-family: "Playfair Display", serif;
+            font-size: 38px;
+            font-weight: 400;
+            span {
+              color: #f34f3f;
+            }
+          }
+          p {
+            margin-top: 1vw;
+            color: #6d6a6a;
+            font-family: "Lora", serif;
+            font-weight: 400;
+            font-size: 17px;
+            word-spacing: 0.2em;
+          }
+          img {
+            margin-top: 1vw;
+            width: 40%;
+          }
+        }
+      }
+    }
+  }
+  #experts {
+    background-color: #f8f8f8;
+    padding-top: 10vw;
+    padding-bottom: 8vw;
+    .container {
+      .row {
+        .information-about-experts {
+          h3 {
+            color: #2b2b2b;
+            font-family: "Playfair Display", serif;
+            font-size: 38px;
+            font-weight: 400;
+            text-align: center;
+            text-transform: capitalize;
+          }
+          p {
+            margin-top: 1.5vw;
+            color: #6d6a6a;
+            font-family: "Lora", serif;
+            font-weight: 400;
+            font-size: 17px;
+            text-align: center;
+          }
+        }
+      }
+      .row {
+        .col-sm-12 {
+          .expert-information {
+            .main-info {
+              text-align: center;
+              h5 {
+                font-family: "Montserrat", sans-serif;
+                font-size: 12px;
+                letter-spacing: 0.1em;
+                font-weight: 500;
+                color: #1b1b1b;
+                text-transform: uppercase;
+              }
+              p {
+                font-family: "Montserrat", sans-serif;
+                font-size: 12px;
+                letter-spacing: 0.1em;
+                font-weight: 500;
+                color: #afafaf;
+                text-transform: capitalize;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+  #second-slide {
+    margin-top: 7vw;
+    margin-bottom: 7vw;
+    .owl-carousel {
+      .both {
+        font-size: 26px;
+        font-weight: 300;
+        position: relative;
+        bottom: 10vw;
+        color: #afafaf;
+      }
+      .owl-prev,
+      .owl-next {
+        background: none !important;
+      }
+      .left {
+        right: 20vw;
+      }
+      .right {
+        left: 20vw;
+      }
+      .item {
+        .slide {
+          .image-container {
+            img {
+              width: 5%;
+            }
+          }
+          h5 {
+            font-family: "Lora", serif;
+            font-size: 24px;
+            color: #4b4747;
+            text-align: center;
+            font-style: italic;
+            font-weight: 300;
+          }
+          p {
+            text-align: center;
+          }
+          .name {
+            font-family: "Montserrat", sans-serif;
+            font-size: 12px;
+            color: #1b1b1b;
+            text-transform: uppercase;
+            font-weight: 500;
+          }
+          .job {
+            color: #afafaf;
+            font-size: 12px;
+            font-weight: 500;
+          }
+        }
+      }
+    }
+  }
+}
+footer {
+  background-color: #fefaf3;
+  .container {
+    padding-top: 5vw;
+    padding-bottom: 1vw;
+    .row {
+      .end {
+        margin-bottom: 2vw;
+        .footer-container {
+          p {
+            color: black;
+            font-family: "Montserrat", sans-serif;
+            font-size: 12px;
+            font-weight: 500;
+            text-transform: uppercase;
+          }
+          ul {
+            margin: 0;
+            padding: 0;
+            li {
+              list-style-type: none;
+              a {
+                text-decoration: none;
+                color: #8b8b8b;
+                font-family: "Montserrat", sans-serif;
+                font-size: 12px;
+              }
+              a:hover {
+                color: #f34f3f;
+                transition: 0.4s;
+              }
+            }
+          }
+        }
+      }
+    }
+    .second {
+      border-top: 1px solid #d9d5cf;
+      .footer-info-container {
+        p {
+          color: #afafaf;
+          font-family: "Montserrat", sans-serif;
+          font-size: 12px;
+          font-weight: 500;
+          span {
+            color: #6d6a6a;
+          }
+        }
+      }
+      .social-media {
+        .socials {
+          a {
+            color: #afafaf;
+            font-family: "Montserrat", sans-serif;
+            font-size: 10px;
+            font-weight: 500;
+            text-decoration: none;
+            text-transform: uppercase;
+            letter-spacing: 0.2em;
+          }
+          a:hover {
+            color: #f34f3f;
+            transition: 0.4s;
+          }
+        }
+      }
+    }
+  }
+}
+}
+
+
 @media (max-width: 991px) {
   body {
     header {
