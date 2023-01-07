@@ -1,9 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&display=swap");
 * {
   box-sizing: border-box;
 }
@@ -293,35 +290,31 @@ header #slider .owl-carousel .owl-next {
   box-sizing: border-box;
 }
 
-body header #parallax-effect .parallax-image {
-  background-image: url("https://fiorello.qodeinteractive.com/wp-content/uploads/2018/05/p1-title-img.jpg");
-  min-height: 300px;
-  background-attachment: fixed;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
+body header #category-filter {
+  background-color: #fafaf9;
+  padding: 3vw 0;
 }
-body header #parallax-effect .parallax-image .email .container .row .newsletter .about-container {
-  margin-top: 6vw;
-}
-body header #parallax-effect .parallax-image .email .container .row .newsletter .about-container h4 {
-  text-align: center;
+body header #category-filter .container .row .col h1 {
+  text-transform: capitalize;
   color: #0e0e0e;
   font-family: "Playfair Display", serif;
   font-size: 50px;
   font-weight: 400;
-  text-transform: capitalize;
-  vertical-align: middle;
 }
-body header #parallax-effect .parallax-image .email .container .row .newsletter .about-container p {
+body header #category-filter .container .row .col p {
   font-size: 17px;
   font-family: "Lora", serif;
   color: #6d6a6a;
   font-style: italic;
-  vertical-align: middle;
 }
 body main #first-post {
   margin-top: 5vw;
+}
+body main #first-post .container .row .rightbar .blogpost .image-container a img {
+  width: 100%;
+}
+body main #first-post .container .row .rightbar .blogpost .text-container {
+  margin-top: 2vw;
 }
 body main #first-post .container .row .rightbar .blogpost .text-container a {
   color: #2b2b2b;
@@ -330,14 +323,43 @@ body main #first-post .container .row .rightbar .blogpost .text-container a {
   font-weight: 400;
   text-decoration: none;
 }
-body main #first-post .container .row .rightbar .blogpost .text-container a span {
-  color: #f34f3f;
-}
 body main #first-post .container .row .rightbar .blogpost .text-container p {
   margin-top: 1.5vw;
   font-size: 15px;
   font-family: "Lora", serif;
   color: #6d6a6a;
+}
+body main #first-post .container .row .rightbar .blogpost .additional-info {
+  margin-top: 2vw;
+}
+body main #first-post .container .row .rightbar .blogpost .additional-info ul {
+  padding: 0;
+}
+body main #first-post .container .row .rightbar .blogpost .additional-info ul li {
+  list-style-type: none;
+  font-size: 10px;
+  font-family: "Montserrat", sans-serif;
+  color: #afafaf;
+  text-transform: uppercase;
+  font-weight: 500;
+  letter-spacing: 0.15em;
+}
+body main #first-post .container .row .rightbar .blogpost .additional-info ul li a {
+  color: #595858;
+  text-decoration: none;
+}
+body main #first-post .container .row .rightbar .blogpost .additional-info ul .comment {
+  font-size: 10px;
+  font-family: "Montserrat", sans-serif;
+  color: #afafaf;
+  font-weight: 500;
+  letter-spacing: 0.15em;
+}
+body main #first-post .container .row .rightbar .blogpost .additional-info ul .comment i {
+  font-size: 20px;
+}
+body main #first-post .container .row .rightbar .blogpost .additional-info ul li:not(:last-child) {
+  margin-right: 1vw;
 }
 body main #first-post .container .row .leftbar aside .input-group input {
   border: 1px solid #ede0cc;
@@ -372,40 +394,77 @@ body main #first-post .container .row .leftbar aside .category-container ul li a
   color: #8b8b8b;
   font-size: 12px;
   font-family: "Montserrat", sans-serif;
+  text-transform: capitalize;
   text-decoration: none;
+  letter-spacing: 0.1em;
   font-weight: 400;
 }
-body main .row .rightbar .blogpost .text-container {
-  margin-top: 2vw;
+body main #first-post .container .row .leftbar aside .recent-container p {
+  color: #1b1b1b;
+  font-family: "Montserrat", sans-serif;
+  text-transform: uppercase;
+  font-weight: 500;
+  letter-spacing: 0.1em;
+  font-size: 12px;
 }
-body main .row .rightbar .blogpost .text-container a {
-  color: #2b2b2b;
-  font-family: "Playfair Display", serif;
-  font-size: 30px;
-  font-weight: 400;
+body main #first-post .container .row .leftbar aside .recent-container a {
   text-decoration: none;
 }
-body main .row .rightbar .blogpost .text-container p {
-  margin-top: 1.5vw;
-  font-size: 15px;
-  font-family: "Lora", serif;
-  color: #6d6a6a;
+body main #first-post .container .row .leftbar aside .recent-container a .mini-container .image-container {
+  width: 30%;
 }
-body main .row .row .rightbar .blogpost .image-container a img {
+body main #first-post .container .row .leftbar aside .recent-container a .mini-container .image-container img {
   width: 100%;
 }
-body main .row .row .rightbar .blogpost .text-container a {
+body main #first-post .container .row .leftbar aside .recent-container a .mini-container .info-container .time {
+  font-size: 10px;
+  color: #afafaf;
+  letter-spacing: 0.15em;
+}
+body main #first-post .container .row .leftbar aside .recent-container a .mini-container a:hover .care-cls {
+  transition: 0.8s;
+  color: #f34f3f;
+}
+body main #first-post .container .row .leftbar aside .recent-container a .ad-container .image-container {
+  width: 80%;
+  text-align: center;
+}
+body main #first-post .container .row .leftbar aside .recent-container a .ad-container .image-container img {
+  width: 100%;
+}
+body main #first-post .container .row .rightbar .quote {
+  margin-bottom: 5vw;
+}
+body main #first-post .container .row .rightbar .quote .quote-container {
+  background-color: #fdfbfc;
+  padding: 4vw 5vw;
+}
+body main #first-post .container .row .rightbar .quote .quote-container h5 a {
+  text-decoration: none;
   color: #2b2b2b;
+  font-size: 24px;
   font-family: "Playfair Display", serif;
-  font-size: 30px;
   font-weight: 400;
+}
+body main #first-post .container .row .rightbar .quote .quote-container p {
+  color: #1b1b1b;
+  font-size: 12px;
+  font-family: "Montserrat", sans-serif;
+  text-transform: uppercase;
+  font-weight: 500;
+  letter-spacing: 0.1em;
+}
+body main #first-post .container .row .rightbar .navigation-icons .nav-container a {
+  font-family: "Montserrat", sans-serif;
+  font-size: 12px;
+  font-weight: 500;
   text-decoration: none;
 }
-body main .row .row .rightbar .blogpost .text-container p {
-  margin-top: 1.5vw;
-  font-size: 15px;
-  font-family: "Lora", serif;
-  color: #6d6a6a;
+body main #first-post .container .row .rightbar .navigation-icons .nav-container .first {
+  color: #afafaf;
+}
+body main #first-post .container .row .rightbar .navigation-icons .nav-container .second {
+  color: #595858;
 }
 body footer {
   background-color: #fefaf3;
@@ -468,32 +527,79 @@ body footer .container .second .social-media .socials a:hover {
 }
 
 @media (max-width: 991px) {
-  body header #parallax-effect .parallax-image {
-    background-image: url("https://fiorello.qodeinteractive.com/wp-content/uploads/2018/05/p1-title-img.jpg");
-    min-height: 240px;
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
+  body aside {
+    margin-bottom: 4vw;
   }
-  body header #parallax-effect .parallax-image .email .container .row .newsletter .about-container {
-    margin-top: 6vw;
+  body aside .input-group input {
+    border: 1px solid #ede0cc;
+    font-size: 12px;
+    border-right: none;
+    padding: 1vw 5vw 1vw 1vw;
   }
-  body header #parallax-effect .parallax-image .email .container .row .newsletter .about-container h4 {
-    text-align: center;
-    color: #0e0e0e;
-    font-family: "Playfair Display", serif;
-    font-size: 50px;
-    font-weight: 400;
-    text-transform: capitalize;
-    vertical-align: middle;
-  }
-  body header #parallax-effect .parallax-image .email .container .row .newsletter .about-container p {
-    font-size: 17px;
-    font-family: "Lora", serif;
+  body aside .input-group button {
+    border: 1px solid #ede0cc;
+    border-left: none;
     color: #6d6a6a;
-    font-style: italic;
-    vertical-align: middle;
+  }
+  body aside .input-group button:hover {
+    background-color: transparent;
+    color: #6d6a6a;
+  }
+  body aside .category-container p {
+    color: #1b1b1b;
+    font-size: 12px;
+    font-family: "Montserrat", sans-serif;
+    text-transform: uppercase;
+    font-weight: 500;
+    letter-spacing: 0.1em;
+  }
+  body aside .category-container ul {
+    padding: 0;
+  }
+  body aside .category-container ul li {
+    list-style-type: none;
+  }
+  body aside .category-container ul li a {
+    color: #8b8b8b;
+    font-size: 12px;
+    font-family: "Montserrat", sans-serif;
+    text-transform: capitalize;
+    text-decoration: none;
+    letter-spacing: 0.1em;
+    font-weight: 400;
+  }
+  body aside .recent-container p {
+    color: #1b1b1b;
+    font-family: "Montserrat", sans-serif;
+    text-transform: uppercase;
+    font-weight: 500;
+    letter-spacing: 0.1em;
+    font-size: 12px;
+  }
+  body aside .recent-container a {
+    text-decoration: none;
+  }
+  body aside .recent-container a .mini-container .image-container {
+    width: 30%;
+  }
+  body aside .recent-container a .mini-container .image-container img {
+    width: 100%;
+  }
+  body aside .recent-container a .mini-container .info-container .time {
+    font-size: 10px;
+    color: #afafaf;
+    letter-spacing: 0.15em;
+  }
+  body aside .recent-container a .mini-container a:hover .care-cls {
+    transition: 0.8s;
+    color: #f34f3f;
+  }
+  body aside .recent-container a .ad-container .image-container {
+    width: 80%;
+    text-align: center;
+  }
+  body aside .recent-container a .ad-container .image-container img {
+    width: 100%;
   }
   body footer {
     background-color: #fefaf3;
@@ -576,56 +682,102 @@ body footer .container .second .social-media .socials a:hover {
   }
 }
 @media (max-width: 576px) {
-  header #parallax-effect .parallax-image {
-    background-image: url("https://fiorello.qodeinteractive.com/wp-content/uploads/2018/05/p1-title-img.jpg");
-    min-height: 190px !important;
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
+  body aside {
+    margin-bottom: 4vw;
   }
-  header #parallax-effect .parallax-image .email .container .row .newsletter .about-container {
-    margin-top: 6vw;
+  body aside .input-group input {
+    border: 1px solid #ede0cc;
+    font-size: 12px;
+    border-right: none;
+    padding: 1vw 5vw 1vw 1vw;
   }
-  header #parallax-effect .parallax-image .email .container .row .newsletter .about-container h4 {
-    text-align: center;
-    color: #0e0e0e;
-    font-family: "Playfair Display", serif;
-    font-size: 50px;
-    font-weight: 400;
-    text-transform: capitalize;
-    vertical-align: middle;
-  }
-  header #parallax-effect .parallax-image .email .container .row .newsletter .about-container p {
-    font-size: 17px;
-    font-family: "Lora", serif;
+  body aside .input-group button {
+    border: 1px solid #ede0cc;
+    border-left: none;
     color: #6d6a6a;
-    font-style: italic;
-    vertical-align: middle;
+  }
+  body aside .input-group button:hover {
+    background-color: transparent;
+    color: #6d6a6a;
+  }
+  body aside .category-container p {
+    color: #1b1b1b;
+    font-size: 12px;
+    font-family: "Montserrat", sans-serif;
+    text-transform: uppercase;
+    font-weight: 500;
+    letter-spacing: 0.1em;
+  }
+  body aside .category-container ul {
+    padding: 0;
+  }
+  body aside .category-container ul li {
+    list-style-type: none;
+  }
+  body aside .category-container ul li a {
+    color: #8b8b8b;
+    font-size: 12px;
+    font-family: "Montserrat", sans-serif;
+    text-transform: capitalize;
+    text-decoration: none;
+    letter-spacing: 0.1em;
+    font-weight: 400;
+  }
+  body aside .recent-container p {
+    color: #1b1b1b;
+    font-family: "Montserrat", sans-serif;
+    text-transform: uppercase;
+    font-weight: 500;
+    letter-spacing: 0.1em;
+    font-size: 12px;
+  }
+  body aside .recent-container a {
+    text-decoration: none;
+  }
+  body aside .recent-container a .mini-container .image-container {
+    width: 30%;
+  }
+  body aside .recent-container a .mini-container .image-container img {
+    width: 100%;
+  }
+  body aside .recent-container a .mini-container .info-container .time {
+    font-size: 10px;
+    color: #afafaf;
+    letter-spacing: 0.15em;
+  }
+  body aside .recent-container a .mini-container a:hover .care-cls {
+    transition: 0.8s;
+    color: #f34f3f;
+  }
+  body aside .recent-container a .ad-container .image-container {
+    width: 80%;
     text-align: center;
   }
-  footer {
+  body aside .recent-container a .ad-container .image-container img {
+    width: 100%;
+  }
+  body footer {
     background-color: #fefaf3;
   }
-  footer .container {
+  body footer .container {
     padding-top: 5vw;
     padding-bottom: 1vw;
   }
-  footer .container .row {
+  body footer .container .row {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
   }
-  footer .container .row .end {
+  body footer .container .row .end {
     margin-bottom: 2vw;
   }
-  footer .container .row .end .footer-container {
+  body footer .container .row .end .footer-container {
     display: flex;
     flex-direction: column;
     align-items: center;
   }
-  footer .container .row .end .footer-container p {
+  body footer .container .row .end .footer-container p {
     color: black;
     font-family: "Montserrat", sans-serif;
     font-size: 18px;
@@ -633,44 +785,44 @@ body footer .container .second .social-media .socials a:hover {
     text-transform: uppercase;
     text-align: left;
   }
-  footer .container .row .end .footer-container ul {
+  body footer .container .row .end .footer-container ul {
     margin: 0;
     padding: 0;
   }
-  footer .container .row .end .footer-container ul li {
+  body footer .container .row .end .footer-container ul li {
     text-align: center;
     list-style-type: none;
   }
-  footer .container .row .end .footer-container ul li a {
+  body footer .container .row .end .footer-container ul li a {
     text-decoration: none;
     color: #8b8b8b;
     font-family: "Montserrat", sans-serif;
     font-size: 16px;
     text-align: center;
   }
-  footer .container .row .end .footer-container ul li a:hover {
+  body footer .container .row .end .footer-container ul li a:hover {
     color: #f34f3f;
     transition: 0.4s;
   }
-  footer .container .second {
+  body footer .container .second {
     border-top: 1px solid #d9d5cf;
   }
-  footer .container .second .footer-info-container {
+  body footer .container .second .footer-info-container {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
   }
-  footer .container .second .footer-info-container p {
+  body footer .container .second .footer-info-container p {
     color: #afafaf;
     font-family: "Montserrat", sans-serif;
     font-size: 12px;
     font-weight: 500;
   }
-  footer .container .second .footer-info-container p span {
+  body footer .container .second .footer-info-container p span {
     color: #6d6a6a;
   }
-  footer .container .second .social-media .socials a {
+  body footer .container .second .social-media .socials a {
     color: #afafaf;
     font-family: "Montserrat", sans-serif;
     font-size: 10px;
@@ -679,8 +831,8 @@ body footer .container .second .social-media .socials a:hover {
     text-transform: uppercase;
     letter-spacing: 0.2em;
   }
-  footer .container .second .social-media .socials a:hover {
+  body footer .container .second .social-media .socials a:hover {
     color: #f34f3f;
     transition: 0.4s;
   }
-}/*# sourceMappingURL=faq.css.map */
+}
